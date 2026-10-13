@@ -32,6 +32,7 @@ class Search_model extends Model {
         $rows = $this->db->query_bind($sql, $params, 'array');
         foreach ($rows as &$row) {
             $row['keyword_score'] = (float) $row['keyword_score'];
+            $row['exact_sku'] = strcasecmp($row['sku'], $query) === 0;
         }
 
         return $rows;

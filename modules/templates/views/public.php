@@ -18,6 +18,7 @@
             </form>
             <nav class="site-nav">
                 <a href="<?= BASE_URL ?>">Shop</a>
+                <a href="<?= BASE_URL ?>compare">Compare search modes</a>
                 <a href="<?= BASE_URL ?>admin">Admin</a>
             </nav>
         </div>

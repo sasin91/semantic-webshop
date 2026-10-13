@@ -6,6 +6,18 @@ class Shop extends Trongate {
 
     const PER_PAGE = 24;
 
+    // Queries that show where each kind of search shines, with why
+    const EXAMPLES = [
+        'warm jacket for hiking in the rain' => 'No word in common with the best match',
+        'gift for a coffee lover' => 'Intent, not keywords',
+        'gave til en kaffeelsker' => 'Danish query, English catalogue',
+        'something to help me fall asleep' => 'A need, not a product name',
+        'back hurts from sitting all day' => 'A problem the products solve',
+        'keep my drink hot on the go' => 'Synonyms: flask, travel mug',
+        'CP-1001' => 'Exact SKU: keyword search wins',
+        'Kestrel K-200' => 'Brand and model number',
+    ];
+
     function index(): void {
         if (!$this->model->has_catalogue()) {
             $this->_render('not_installed', ['page_title' => 'Not installed yet']);
@@ -20,6 +32,7 @@ class Shop extends Trongate {
             'categories' => $this->model->categories(),
             'mode' => '',
             'page_title' => $query === '' ? 'All products' : "Search: {$query}",
+            'examples' => self::EXAMPLES,
         ];
 
         if ($query === '') {
@@ -54,10 +67,41 @@ class Shop extends Trongate {
             return;
         }
 
+        $this->module('search');
+
         $this->_render('product', [
             'product' => $product,
+            'similar' => $this->search->_similar($product['id']),
             'page_title' => $product['name'],
             'query' => '',
+        ]);
+    }
+
+    /**
+     * The same query as keyword, semantic and hybrid search, side by side
+     */
+    function compare(): void {
+        if (!$this->model->has_catalogue()) {
+            $this->_render('not_installed', ['page_title' => 'Not installed yet']);
+            return;
+        }
+
+        $query = $this->_query();
+        if ($query === '') {
+            $query = array_key_first(self::EXAMPLES);
+        }
+
+        $this->module('search');
+        $columns = [];
+        foreach (['keyword' => 'Keyword only', 'semantic' => 'Semantic', 'hybrid' => 'Hybrid'] as $mode => $title) {
+            $columns[$mode] = ['title' => $title] + $this->search->_run($query, [], $mode, 8);
+        }
+
+        $this->_render('compare', [
+            'query' => $query,
+            'columns' => $columns,
+            'examples' => self::EXAMPLES,
+            'page_title' => "Compare: {$query}",
         ]);
     }
 

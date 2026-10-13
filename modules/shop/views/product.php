@@ -25,3 +25,16 @@
         <?php endif; ?>
     </div>
 </div>
+
+<?php if ($similar !== []): ?>
+    <section class="similar">
+        <h2>More like this</h2>
+        <p class="muted">The nearest products to this one's own vector: similar in meaning, from any category.</p>
+        <div class="grid">
+            <?php foreach ($similar as $product): ?>
+                <?php $product += ['matched_by' => 'semantic', 'score_label' => 'similarity ' . number_format($product['similarity'], 2)]; ?>
+                <?php require __DIR__ . '/_card.php'; ?>
+            <?php endforeach; ?>
+        </div>
+    </section>
+<?php endif; ?>

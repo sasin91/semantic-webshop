@@ -90,6 +90,13 @@ class Embeddings extends Trongate {
     }
 
     /**
+     * A product's stored vector, or null when it has none from the current model
+     */
+    function product_vector(int $product_id): ?array {
+        return $this->model->product_vector($product_id);
+    }
+
+    /**
      * Embedding state of the catalogue, for the admin (see Embeddings_model::stats())
      */
     function stats(): array {

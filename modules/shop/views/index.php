@@ -54,6 +54,18 @@ $filter_query = fn(array $changes) => http_build_query(array_filter(array_merge(
             <?php endif; ?>
         </div>
 
+        <?php if ($query === ''): ?>
+            <div class="examples">
+                <strong>Try a search that understands meaning:</strong>
+                <?php foreach ($examples as $example => $why): ?>
+                    <a class="chip" href="<?= BASE_URL ?>?q=<?= urlencode($example) ?>" title="<?= out($why) ?>"><?= out($example) ?></a>
+                <?php endforeach; ?>
+                <a href="<?= BASE_URL ?>compare">or compare keyword, semantic and hybrid side by side →</a>
+            </div>
+        <?php else: ?>
+            <p class="compare-link"><a href="<?= BASE_URL ?>compare?q=<?= urlencode($query) ?>">Compare this query in keyword, semantic and hybrid search →</a></p>
+        <?php endif; ?>
+
         <?php if (!empty($search['notice'])): ?>
             <div class="notice"><?= out($search['notice']) ?></div>
         <?php endif; ?>
