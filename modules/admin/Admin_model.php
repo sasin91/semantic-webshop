@@ -1,18 +1,24 @@
 <?php
+require_once APPPATH . 'modules/search/traits/Sql_files.php';
+
 /**
  * Installing the catalogue and reporting its state.
  */
 class Admin_model extends Model {
+
+    use Sql_files;
 
     /**
      * Create the tables and add the seed data that is not there yet. Safe to
      * run again: existing categories and products (matched by slug and SKU)
      * are left as they are, so edits made in the admin survive.
      *
-     * @return array{categories: int, products: int} rows added
+     * @return array{categories: int, products: int, vector_backend: string} rows added, and the vector store used
      */
     function install(): array {
         $this->_run_sql_file(APPPATH . 'db/schema.sql');
+        $this->module('embeddings');
+        $vector_backend = $this->embeddings->install();
 
         $seed = json_decode(file_get_contents(APPPATH . 'db/seed/products.json'), true, flags: JSON_THROW_ON_ERROR);
         $before = $this->_counts();
@@ -48,6 +54,7 @@ class Admin_model extends Model {
         return [
             'categories' => $after['categories'] - $before['categories'],
             'products' => $after['products'] - $before['products'],
+            'vector_backend' => $vector_backend,
         ];
     }
 
@@ -55,7 +62,7 @@ class Admin_model extends Model {
      * @return array{installed: bool, categories: int, products: int, database_version: string}
      */
     function status(): array {
-        $installed = $this->db->table_exists('products');
+        $installed = $this->db->table_exists('products') && $this->db->table_exists('product_embeddings');
 
         return [
             'installed' => $installed,
@@ -67,19 +74,5 @@ class Admin_model extends Model {
         $row = $this->db->query('SELECT (SELECT COUNT(*) FROM categories) AS categories, (SELECT COUNT(*) FROM products) AS products', 'array')[0];
 
         return ['categories' => (int) $row['categories'], 'products' => (int) $row['products']];
-    }
-
-    /**
-     * Run each statement of a .sql file (statements end with ; at the end of a line)
-     */
-    function _run_sql_file(string $path, array $replacements = []): void {
-        $sql = strtr(file_get_contents($path), $replacements);
-        $sql = preg_replace('/^\s*--.*$/m', '', $sql);
-
-        foreach (preg_split('/;\s*$/m', $sql) as $statement) {
-            if (trim($statement) !== '') {
-                $this->db->query($statement);
-            }
-        }
     }
 }

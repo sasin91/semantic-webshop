@@ -3,7 +3,7 @@ require_once APPPATH . 'modules/search/traits/Search_settings.php';
 
 /**
  * The shop's back office, behind one password (ADMIN_PASSWORD or
- * config/search.php): install and seed the catalogue.
+ * config/search.php): install and seed the catalogue, embed the products.
  */
 class Admin extends Trongate {
 
@@ -12,9 +12,20 @@ class Admin extends Trongate {
     function index(): void {
         $this->_make_sure_allowed();
 
+        $status = $this->model->status();
+        $this->module('embeddings');
+
         $this->_render('dashboard', [
             'page_title' => 'Admin',
-            'status' => $this->model->status(),
+            'status' => $status,
+            'embeddings' => $status['installed'] ? $this->embeddings->stats() : null,
+            'backend' => $this->embeddings->backend(),
+            'health' => $this->embeddings->health(),
+            'settings' => [
+                'model' => $this->_setting('embeddings_model'),
+                'version' => $this->_setting('embeddings_model_version'),
+                'dimensions' => $this->_setting('embeddings_dimensions'),
+            ],
         ]);
     }
 
@@ -53,8 +64,27 @@ class Admin extends Trongate {
         $this->_require_post();
 
         $result = $this->model->install();
-        set_flashdata("Installed. Added {$result['categories']} categories and {$result['products']} products.");
+        set_flashdata("Installed with the {$result['vector_backend']} vector store. Added {$result['categories']} categories and {$result['products']} products. Now embed them below.");
         redirect('admin');
+    }
+
+    /**
+     * POST, answers JSON: embed the next batch of products. The dashboard calls
+     * it in a loop, passing back last_id, until done, to show progress.
+     * all=1 re-embeds every product; otherwise only missing or outdated ones.
+     */
+    function embed(): void {
+        $this->_make_sure_allowed();
+        $this->_require_post();
+        $this->module('embeddings');
+        header('Content-Type: application/json');
+
+        try {
+            echo json_encode($this->embeddings->index(post('all') === '1', (int) post('after_id')));
+        } catch (RuntimeException $e) {
+            http_response_code(503);
+            echo json_encode(['error' => $e->getMessage()]);
+        }
     }
 
     function _make_sure_allowed(): void {
@@ -84,6 +114,7 @@ class Admin extends Trongate {
         $data['view_module'] = 'admin';
         $data['view_file'] = $view_file;
         $data['additional_includes_top'] = ['shop_module/css/shop.css'];
+        $data['additional_includes_btm'] = ['admin_module/js/admin.js'];
         $this->module('templates');
         $this->templates->admin($data);
     }

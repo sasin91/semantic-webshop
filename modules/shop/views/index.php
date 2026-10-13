@@ -42,9 +42,16 @@ $filter_query = fn(array $changes) => http_build_query(array_filter(array_merge(
             <p class="results-count">
                 <?= (int) $total ?> <?= $total === 1 ? 'product' : 'products' ?>
                 <?php if (isset($search)): ?>
-                    · <?= out($search['mode']) ?> search in <?= (int) $search['took_ms'] ?> ms
+                    · <?= out($search['mode']) ?> search in <?= (int) $search['took_ms'] ?> ms<?= $search['cached'] ? ' (query vector from cache)' : '' ?>
                 <?php endif; ?>
             </p>
+            <?php if ($query !== ''): ?>
+                <nav class="mode-tabs" aria-label="Search mode">
+                    <?php foreach (Search::MODES as $tab): ?>
+                        <a class="<?= $tab === $mode ? 'active' : '' ?>" href="<?= BASE_URL ?>?<?= $filter_query(['mode' => $tab]) ?>"><?= ucfirst($tab) ?></a>
+                    <?php endforeach; ?>
+                </nav>
+            <?php endif; ?>
         </div>
 
         <?php if (!empty($search['notice'])): ?>
