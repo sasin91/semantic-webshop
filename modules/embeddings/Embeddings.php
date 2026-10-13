@@ -104,6 +104,13 @@ class Embeddings extends Trongate {
     }
 
     /**
+     * Whether each product's vector is current (see Embeddings_model::status_of())
+     */
+    function status_of(array $products): array {
+        return $this->model->status_of($products);
+    }
+
+    /**
      * Embed one batch of products and store their vectors.
      *
      * @param bool $all true re-embeds every product; false only those without a current vector

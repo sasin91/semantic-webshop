@@ -29,12 +29,14 @@ $settings = [
     // Vector backend: 'auto' uses MariaDB's VECTOR type from 11.7, else packed float BLOBs
     'vector_backend' => 'auto',
 
-    // Hybrid ranking (Reciprocal Rank Fusion); tune with bin/eval.php
-    'rrf_k' => 60,
-    'keyword_weight' => 1.0,
+    // Hybrid ranking (Reciprocal Rank Fusion), tuned with bin/eval.php: the
+    // keyword list gets half the weight because FULLTEXT matches any shared
+    // word, and a small k lets the top of each list count for more
+    'rrf_k' => 20,
+    'keyword_weight' => 0.5,
     'semantic_weight' => 1.0,
     'candidates' => 40,          // results taken from each list before merging
-    'min_similarity' => 0.30,    // semantic hits below this cosine similarity are dropped
+    'min_similarity' => 0.60,    // semantic hits below this cosine similarity are dropped (unrelated products score ~0.6)
 
     // Admin pages are locked while this is empty
     'admin_password' => '',

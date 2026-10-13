@@ -17,6 +17,7 @@
                 <a href="<?= BASE_URL ?>">View shop</a>
                 <?php if (!empty($_SESSION['admin_signed_in'])): ?>
                     <a href="<?= BASE_URL ?>admin">Dashboard</a>
+                    <a href="<?= BASE_URL ?>admin/products">Products</a>
                     <a href="<?= BASE_URL ?>admin/logout">Sign out</a>
                 <?php endif; ?>
             </nav>
