@@ -1,0 +1,193 @@
+-- Seed catalogue part 2, generated from db/seed/products.json by bin/seed-sql.php.
+-- Run after db/schema.sql and the parts before it. Safe to run again: existing rows are left alone.
+
+SET NAMES utf8mb4;
+
+INSERT IGNORE INTO products (sku, name, brand, category_id, description, attributes, price, stock)
+SELECT 'HF-1026', 'Washable Runner', 'Pebble', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Machine-washable hallway runner.', '{"Size":"80 × 200 cm"}', 78.99, 59
+UNION ALL SELECT 'HF-1027', 'Throw Blanket, Chunky Knit', 'Halden', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Soft chunky throw for the sofa.', '{"Size":"130 × 170 cm"}', 58.99, 34
+UNION ALL SELECT 'HF-1028', 'Cushion Covers, Linen (2)', 'Halden', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Stonewashed linen covers.', '{"Size":"50 × 50 cm"}', 28.99, 48
+UNION ALL SELECT 'HF-1029', 'Scented Candle, Cedar', 'Halden', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Soy wax candle with cedar and smoke notes.', '{"Burn time":"50 h"}', 24.99, 57
+UNION ALL SELECT 'HF-1030', 'Ceramic Vase, Large', 'Copperleaf', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Matte stoneware vase for dried flowers.', '{"Height":"35 cm"}', 44.99, 4
+UNION ALL SELECT 'HF-1031', 'Indoor Plant Pot Set', 'Copperleaf', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Three glazed pots with saucers.', '{"Sizes":"12, 15, 18 cm"}', 38.99, 2
+UNION ALL SELECT 'HF-1032', 'Picture Frames, Gallery Set', 'Pebble', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Seven black frames for a gallery wall.', '{"Pieces":"7"}', 48.99, 30
+UNION ALL SELECT 'HF-1033', 'Wall Clock, Silent', 'Pebble', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Non-ticking clock for bedrooms.', '{"Diameter":"30 cm"}', 34.99, 18
+UNION ALL SELECT 'HF-1034', 'Laundry Basket, Seagrass', 'Pebble', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Woven basket with a cotton liner.', '{"Volume":"60 L"}', 34.99, 4
+UNION ALL SELECT 'HF-1035', 'Storage Boxes, Fabric (4)', 'Pebble', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Fold-flat cubes for shelving units.', '{"Size":"33 cm cube"}', 28.99, 55
+UNION ALL SELECT 'HF-1036', 'Kids'' Bunk Bed', 'Oakline', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Solid pine bunk bed with a safety rail and ladder.', '{"Mattress":"90 × 200 cm"}', 448.99, 28
+UNION ALL SELECT 'HF-1037', 'Nightstand with Drawer', 'Oakline', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Compact bedside table.', '{"Size":"40 × 35 × 50 cm"}', 98.99, 6
+UNION ALL SELECT 'HF-1038', 'Wardrobe, 2 Doors', 'Oakline', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Hanging rail, shelves and a mirror inside.', '{"Size":"100 × 58 × 200 cm"}', 398.99, 48
+UNION ALL SELECT 'HF-1039', 'Chest of Drawers', 'Oakline', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Six drawers with soft-close runners.', '{"Drawers":"6"}', 278.99, 57
+UNION ALL SELECT 'HF-1040', 'Folding Guest Bed', 'Pebble', (SELECT id FROM categories WHERE slug = 'home-furniture'), 'Rollaway bed with a 10 cm foam mattress.', '{"Size":"90 × 190 cm"}', 188.99, 30
+UNION ALL SELECT 'BB-1001', 'Weighted Blanket 7 kg', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Glass-bead blanket that gives gentle, even pressure so you settle faster and stay asleep.', '{"Weight":"7 kg","Size":"150 × 200 cm"}', 128.99, 0
+UNION ALL SELECT 'BB-1002', 'Silk Sleep Mask', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Mulberry silk eye mask that blocks light without pressing on your eyes.', '{"Material":"Mulberry silk"}', 24.99, 20
+UNION ALL SELECT 'BB-1003', 'Memory Foam Pillow', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Contoured pillow that supports the neck for side and back sleepers.', '{"Size":"60 × 40 cm"}', 58.99, 53
+UNION ALL SELECT 'BB-1004', 'Down Duvet, All-Season', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Two duvets that button together for winter and separate for summer.', '{"Size":"220 × 220 cm","Fill":"90% down"}', 198.99, 19
+UNION ALL SELECT 'BB-1005', 'Cotton Percale Bedding Set', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Crisp, cool organic cotton duvet cover and pillowcases.', '{"Thread count":"200","Material":"Organic cotton"}', 88.99, 22
+UNION ALL SELECT 'BB-1006', 'Linen Bedding Set', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Stonewashed linen that gets softer with every wash and stays cool in summer.', '{"Material":"100% linen"}', 148.99, 17
+UNION ALL SELECT 'BB-1007', 'Flannel Sheets', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Brushed cotton sheets for cold winter nights.', '{"Material":"Cotton flannel"}', 68.99, 50
+UNION ALL SELECT 'BB-1008', 'Mattress Topper, Memory Foam', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Adds a soft, pressure-relieving layer to a firm mattress.', '{"Thickness":"7 cm"}', 128.99, 44
+UNION ALL SELECT 'BB-1009', 'Pocket Spring Mattress', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Medium-firm mattress with individually wrapped springs.', '{"Size":"160 × 200 cm","Firmness":"Medium-firm"}', 698.99, 31
+UNION ALL SELECT 'BB-1010', 'Waterproof Mattress Protector', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Breathable, quiet protector against spills.', '{"Size":"160 × 200 cm"}', 34.99, 16;
+
+INSERT IGNORE INTO products (sku, name, brand, category_id, description, attributes, price, stock)
+SELECT 'BB-1011', 'Electric Blanket', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Under-blanket with dual controls and auto shut-off.', '{"Settings":"9"}', 78.99, 9
+UNION ALL SELECT 'BB-1012', 'Hot Water Bottle with Knit Cover', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Classic rubber bottle for cosy evenings.', '{"Volume":"2 L"}', 18.95, 0
+UNION ALL SELECT 'BB-1013', 'Bath Towel Set, Turkish Cotton', 'Tidewater', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Plush, absorbent towels in a set of four.', '{"GSM":"600","Pieces":"4"}', 68.99, 0
+UNION ALL SELECT 'BB-1014', 'Waffle Bathrobe', 'Tidewater', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Lightweight cotton robe that dries quickly.', '{"Material":"Waffle cotton"}', 58.99, 28
+UNION ALL SELECT 'BB-1015', 'Bath Mat, Diatomite', 'Tidewater', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Stone mat that absorbs water in seconds.', '{"Size":"60 × 39 cm"}', 34.99, 18
+UNION ALL SELECT 'BB-1016', 'Shower Head, Rainfall', 'Tidewater', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Wide rainfall head with a water-saving setting.', '{"Diameter":"25 cm"}', 78.99, 54
+UNION ALL SELECT 'BB-1017', 'Bath Salts, Lavender', 'Tidewater', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Magnesium flakes with lavender oil for a relaxing soak.', '{"Weight":"1 kg"}', 14.95, 1
+UNION ALL SELECT 'BB-1018', 'Aromatherapy Diffuser', 'Tidewater', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Ultrasonic diffuser with soft light and auto-off.', '{"Runtime":"8 h"}', 38.99, 42
+UNION ALL SELECT 'BB-1019', 'Essential Oil Set', 'Tidewater', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Six oils including lavender, eucalyptus and peppermint.', '{"Bottles":"6 × 10 ml"}', 28.99, 54
+UNION ALL SELECT 'BB-1020', 'Electric Toothbrush', 'Pebble', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Sonic toothbrush with a pressure sensor and travel case.', '{"Battery":"3 weeks"}', 78.99, 23
+UNION ALL SELECT 'BB-1021', 'Water Flosser', 'Pebble', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Cordless flosser for cleaner gums.', '{"Modes":"3"}', 58.99, 24
+UNION ALL SELECT 'BB-1022', 'Bamboo Bath Caddy', 'Oakline', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Extendable tray across the tub for a book and a cup of tea.', '{"Length":"70–105 cm"}', 38.99, 59
+UNION ALL SELECT 'BB-1023', 'Towel Warmer, Freestanding', 'Tidewater', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Heated rail that dries towels.', '{"Bars":"10"}', 128.99, 56
+UNION ALL SELECT 'BB-1024', 'Shower Curtain, Waffle', 'Tidewater', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Water-repellent fabric curtain.', '{"Size":"180 × 200 cm"}', 28.99, 55
+UNION ALL SELECT 'BB-1025', 'Bathroom Scale, Smart', 'Pebble', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Measures weight and body composition and syncs to an app.', '{"Capacity":"180 kg"}', 48.99, 60
+UNION ALL SELECT 'BB-1026', 'Hair Dryer, Ionic', 'Pebble', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Fast, quiet dryer with a diffuser.', '{"Power":"2000 W"}', 88.99, 25
+UNION ALL SELECT 'BB-1027', 'Makeup Mirror, Lighted', 'Pebble', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Magnifying mirror with dimmable LEDs.', '{"Magnification":"5×"}', 44.99, 22
+UNION ALL SELECT 'BB-1028', 'Laundry Hamper with Lid', 'Pebble', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Bamboo hamper with a removable bag.', '{"Volume":"70 L"}', 34.99, 1
+UNION ALL SELECT 'BB-1029', 'Baby Bath Towel, Hooded', 'Tidewater', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Soft hooded towel for little ones.', '{"Size":"75 × 75 cm"}', 18.95, 0
+UNION ALL SELECT 'BB-1030', 'Cot Bedding Set', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Duvet and pillow set for toddler beds.', '{"Size":"100 × 135 cm"}', 44.99, 59
+UNION ALL SELECT 'BB-1031', 'Pillow, Hypoallergenic (2)', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Microfibre pillows for allergy sufferers.', '{"Size":"50 × 70 cm"}', 38.99, 42
+UNION ALL SELECT 'BB-1032', 'Body Pillow, Pregnancy', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'U-shaped pillow that supports back and bump.', '{"Length":"140 cm"}', 68.99, 21
+UNION ALL SELECT 'BB-1033', 'Lavender Pillow Spray', 'Tidewater', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Calming mist for bedtime routines.', '{"Volume":"100 ml"}', 13.95, 1
+UNION ALL SELECT 'BB-1034', 'Ear Plugs, Foam (20 pairs)', 'Pebble', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Soft plugs to shut out snoring partners.', '{"SNR":"37 dB"}', 8.95, 60
+UNION ALL SELECT 'BB-1035', 'Cooling Pillowcase', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Silky cooling fabric for hot sleepers.', '{"Material":"Lyocell"}', 28.99, 9;
+
+INSERT IGNORE INTO products (sku, name, brand, category_id, description, attributes, price, stock)
+SELECT 'BB-1036', 'Bedspread, Quilted', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Lightweight quilted throw for the end of the bed.', '{"Size":"220 × 250 cm"}', 88.99, 0
+UNION ALL SELECT 'BB-1037', 'Sauna Hat, Felt', 'Halden', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Wool felt hat that keeps your head cool in the sauna.', '{"Material":"Wool felt"}', 24.99, 37
+UNION ALL SELECT 'BB-1038', 'Exfoliating Gloves', 'Tidewater', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Textured gloves for smooth skin.', '{"Pieces":"2"}', 7.95, 44
+UNION ALL SELECT 'BB-1039', 'Natural Sea Sponge', 'Tidewater', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Soft, sustainable sponge.', '{"Size":"Medium"}', 11.95, 44
+UNION ALL SELECT 'BB-1040', 'Toiletry Bag, Hanging', 'Tidewater', (SELECT id FROM categories WHERE slug = 'bath-bedding'), 'Travel wash bag with a hook and many pockets.', '{"Volume":"5 L"}', 28.99, 20
+UNION ALL SELECT 'SF-1001', 'Yoga Mat, Natural Rubber', 'Brisa', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Grippy, cushioned mat that stays put in sweaty sessions.', '{"Thickness":"4 mm","Size":"183 × 66 cm"}', 68.99, 60
+UNION ALL SELECT 'SF-1002', 'Yoga Blocks, Cork (2)', 'Brisa', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Firm cork blocks to support poses while you build flexibility.', '{"Size":"23 × 15 × 7.5 cm"}', 24.99, 0
+UNION ALL SELECT 'SF-1003', 'Yoga Strap', 'Brisa', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Cotton strap with a D-ring buckle for stretches.', '{"Length":"2.4 m"}', 8.95, 26
+UNION ALL SELECT 'SF-1004', 'Beginner Yoga Starter Set', 'Brisa', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Mat, two blocks, strap and a carry sling: everything for your first classes.', '{"Includes":"Mat, 2 blocks, strap, sling"}', 58.99, 11
+UNION ALL SELECT 'SF-1005', 'Meditation Cushion', 'Brisa', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Buckwheat-filled zafu for comfortable sitting.', '{"Fill":"Buckwheat hulls"}', 44.99, 58
+UNION ALL SELECT 'SF-1006', 'Adjustable Dumbbells 2–24 kg', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Dial-select dumbbells that replace a whole rack.', '{"Range":"2–24 kg each"}', 348.99, 43
+UNION ALL SELECT 'SF-1007', 'Kettlebell 12 kg', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Cast iron kettlebell with a wide handle.', '{"Weight":"12 kg"}', 44.99, 39
+UNION ALL SELECT 'SF-1008', 'Resistance Bands Set', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Five loop bands from light to extra heavy, with door anchor.', '{"Bands":"5"}', 28.99, 0
+UNION ALL SELECT 'SF-1009', 'Pull-Up Bar, Doorway', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'No-screw bar that fits most door frames.', '{"Width":"62–100 cm"}', 34.99, 35
+UNION ALL SELECT 'SF-1010', 'Weight Bench, Adjustable', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Flat, incline and decline positions.', '{"Load":"300 kg"}', 178.99, 47
+UNION ALL SELECT 'SF-1011', 'Foam Roller', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'High-density roller for sore muscles.', '{"Length":"45 cm"}', 28.99, 0
+UNION ALL SELECT 'SF-1012', 'Massage Gun', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Percussion massager with five heads for recovery.', '{"Speeds":"5"}', 128.99, 22
+UNION ALL SELECT 'SF-1013', 'Jump Rope, Speed', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Ball-bearing rope for skipping workouts.', '{"Length":"Adjustable"}', 14.95, 0
+UNION ALL SELECT 'SF-1014', 'Exercise Bike, Folding', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Magnetic resistance bike that folds away.', '{"Levels":"8"}', 298.99, 30
+UNION ALL SELECT 'SF-1015', 'Rowing Machine', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Air rower with performance monitor.', '{"Monitor":"Pace, watts, calories"}', 798.99, 21
+UNION ALL SELECT 'SF-1016', 'Treadmill, Under-Desk', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Walking pad that slides under a standing desk.', '{"Speed":"1–6 km\\/h"}', 448.99, 46
+UNION ALL SELECT 'SF-1017', 'Running Belt', 'Kestrel', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Bounce-free belt for phone and keys.', '{"Fits":"Phones up to 6.9\\""}', 18.95, 53
+UNION ALL SELECT 'SF-1018', 'Hydration Vest 5 L', 'Kestrel', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Trail-running vest with two soft flasks.', '{"Volume":"5 L"}', 98.99, 51
+UNION ALL SELECT 'SF-1019', 'Sports Water Bottle 750 ml', 'Arbor', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Squeezable bottle with a leakproof valve.', '{"Volume":"750 ml"}', 14.95, 5
+UNION ALL SELECT 'SF-1020', 'Tennis Racket, Graphite', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Lightweight racket with a forgiving sweet spot.', '{"Weight":"280 g"}', 148.99, 31;
+
+INSERT IGNORE INTO products (sku, name, brand, category_id, description, attributes, price, stock)
+SELECT 'SF-1021', 'Padel Racket', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Carbon padel racket with a soft EVA core.', '{"Weight":"365 g"}', 128.99, 20
+UNION ALL SELECT 'SF-1022', 'Football, Size 5', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Machine-stitched match ball.', '{"Size":"5"}', 28.99, 17
+UNION ALL SELECT 'SF-1023', 'Basketball, Outdoor', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Durable rubber ball for street courts.', '{"Size":"7"}', 28.99, 34
+UNION ALL SELECT 'SF-1024', 'Badminton Set', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Four rackets, shuttlecocks and a net for the garden.', '{"Players":"4"}', 38.99, 35
+UNION ALL SELECT 'SF-1025', 'Table Tennis Bats (2)', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Bats with balls and a carry case.', '{"Pieces":"2 bats, 3 balls"}', 28.99, 4
+UNION ALL SELECT 'SF-1026', 'Cycling Helmet', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Ventilated helmet with MIPS for road and commuting.', '{"Weight":"290 g"}', 78.99, 47
+UNION ALL SELECT 'SF-1027', 'Bike Lights Set, USB', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Bright front and rear lights for dark evenings.', '{"Front":"400 lm"}', 34.99, 41
+UNION ALL SELECT 'SF-1028', 'Bike Lock, D-Lock', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Hardened steel lock with mount.', '{"Security":"Sold Secure Gold"}', 58.99, 51
+UNION ALL SELECT 'SF-1029', 'Bike Repair Kit', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Multitool, tyre levers and patches.', '{"Tools":"16"}', 24.99, 0
+UNION ALL SELECT 'SF-1030', 'Swimming Goggles', 'Tidewater', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Anti-fog goggles with a wide view.', '{"Lens":"Anti-fog, UV"}', 18.95, 44
+UNION ALL SELECT 'SF-1031', 'Swim Cap, Silicone', 'Tidewater', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Durable cap for lane swimming.', '{"Material":"Silicone"}', 8.95, 52
+UNION ALL SELECT 'SF-1032', 'Wetsuit, 3/2 mm', 'Tidewater', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Full suit for open-water swimming and surfing.', '{"Thickness":"3\\/2 mm"}', 198.99, 30
+UNION ALL SELECT 'SF-1033', 'Stand-Up Paddle Board, Inflatable', 'Tidewater', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Stable 10''6" board with pump, paddle and bag.', '{"Length":"320 cm"}', 448.99, 40
+UNION ALL SELECT 'SF-1034', 'Climbing Shoes', 'Kestrel', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Comfortable shoes for indoor bouldering beginners.', '{"Closure":"Velcro"}', 98.99, 41
+UNION ALL SELECT 'SF-1035', 'Chalk Bag with Belt', 'Kestrel', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Bag and chalk for climbing grip.', '{"Includes":"Chalk 60 g"}', 18.95, 46
+UNION ALL SELECT 'SF-1036', 'Climbing Harness', 'Kestrel', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Adjustable harness with four gear loops.', '{"Gear loops":"4"}', 68.99, 31
+UNION ALL SELECT 'SF-1037', 'Gym Bag, Duffel', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Water-resistant bag with a shoe compartment.', '{"Volume":"40 L"}', 48.99, 35
+UNION ALL SELECT 'SF-1038', 'Boxing Gloves 12 oz', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Padded gloves for bag work and sparring.', '{"Weight":"12 oz"}', 48.99, 23
+UNION ALL SELECT 'SF-1039', 'Ab Wheel', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Core trainer with knee pad.', '{"Wheel":"Dual"}', 14.95, 58
+UNION ALL SELECT 'SF-1040', 'Balance Board', 'Strand', (SELECT id FROM categories WHERE slug = 'sports-fitness'), 'Wooden wobble board for ankles and core.', '{"Diameter":"40 cm"}', 38.99, 42
+UNION ALL SELECT 'GT-1001', 'Balcony Herb Planter', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Self-watering railing box for basil, parsley and thyme on a small balcony.', '{"Length":"60 cm","Reservoir":"2 L"}', 48.99, 42
+UNION ALL SELECT 'GT-1002', 'Herb Seed Kit', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Organic seeds for six kitchen herbs with biodegradable pots and soil discs.', '{"Varieties":"6"}', 18.95, 50
+UNION ALL SELECT 'GT-1003', 'Raised Garden Bed', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Cedar bed for vegetables at a comfortable working height.', '{"Size":"120 × 60 × 30 cm"}', 128.99, 49
+UNION ALL SELECT 'GT-1004', 'Vertical Planter, Wall', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Felt pocket planter to grow greens on a fence or wall.', '{"Pockets":"18"}', 58.99, 13
+UNION ALL SELECT 'GT-1005', 'Indoor Grow Light', 'Lumen', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Full-spectrum LED bar that keeps houseplants and seedlings thriving through winter.', '{"Power":"40 W"}', 68.99, 10;
+
+INSERT IGNORE INTO products (sku, name, brand, category_id, description, attributes, price, stock)
+SELECT 'GT-1006', 'Smart Indoor Garden', 'Lumen', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Countertop hydroponic garden with automatic light timer.', '{"Pods":"9"}', 148.99, 35
+UNION ALL SELECT 'GT-1007', 'Pruning Saw, Folding', 'Arbor', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Razor-toothed folding saw that cuts branches up to 15 cm.', '{"Blade":"21 cm"}', 34.99, 51
+UNION ALL SELECT 'GT-1008', 'Bypass Secateurs', 'Arbor', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Sharp pruners for roses, shrubs and fruit trees.', '{"Cut":"Up to 22 mm"}', 28.99, 43
+UNION ALL SELECT 'GT-1009', 'Hedge Trimmer, Cordless', 'Arbor', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Battery trimmer for neat hedges.', '{"Blade":"50 cm","Battery":"18 V"}', 148.99, 43
+UNION ALL SELECT 'GT-1010', 'Loppers, Telescopic', 'Arbor', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Long-handled loppers for thick branches.', '{"Cut":"Up to 50 mm"}', 48.99, 50
+UNION ALL SELECT 'GT-1011', 'Hand Axe', 'Arbor', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Forged axe for splitting kindling and felling small trees.', '{"Head":"600 g","Handle":"Hickory"}', 58.99, 41
+UNION ALL SELECT 'GT-1012', 'Chainsaw, Cordless 30 cm', 'Arbor', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Battery chainsaw for firewood and storm clean-up.', '{"Bar":"30 cm","Battery":"36 V"}', 248.99, 57
+UNION ALL SELECT 'GT-1013', 'Lawn Mower, Cordless', 'Arbor', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Quiet battery mower for medium lawns.', '{"Cut width":"40 cm"}', 348.99, 7
+UNION ALL SELECT 'GT-1014', 'Robotic Lawn Mower', 'Arbor', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Mows automatically within a boundary wire.', '{"Area":"Up to 800 m²"}', 798.99, 56
+UNION ALL SELECT 'GT-1015', 'Garden Hose 25 m with Reel', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Kink-resistant hose on a wall-mounted reel.', '{"Length":"25 m"}', 68.99, 0
+UNION ALL SELECT 'GT-1016', 'Spray Nozzle, 8 Patterns', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Pistol sprayer from mist to jet.', '{"Patterns":"8"}', 14.95, 15
+UNION ALL SELECT 'GT-1017', 'Watering Can 10 L', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Galvanised can with a long spout.', '{"Volume":"10 L"}', 24.99, 35
+UNION ALL SELECT 'GT-1018', 'Drip Irrigation Kit', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Waters pots and beds automatically.', '{"Drippers":"30"}', 48.99, 31
+UNION ALL SELECT 'GT-1019', 'Rain Barrel 200 L', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Collects roof water for the garden.', '{"Volume":"200 L"}', 88.99, 35
+UNION ALL SELECT 'GT-1020', 'Compost Bin 300 L', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Turns kitchen scraps and leaves into rich compost.', '{"Volume":"300 L"}', 68.99, 11
+UNION ALL SELECT 'GT-1021', 'Garden Gloves, Leather', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Thorn-resistant gloves.', '{"Material":"Goatskin"}', 18.95, 38
+UNION ALL SELECT 'GT-1022', 'Kneeling Pad and Seat', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Flips between a kneeler and a stool.', '{"Load":"150 kg"}', 34.99, 12
+UNION ALL SELECT 'GT-1023', 'Hand Trowel and Fork Set', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Stainless tools with ash handles.', '{"Pieces":"2"}', 21.99, 0
+UNION ALL SELECT 'GT-1024', 'Spade, Stainless', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Border spade for digging and edging.', '{"Length":"100 cm"}', 48.99, 48
+UNION ALL SELECT 'GT-1025', 'Leaf Rake', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Wide fan rake for autumn.', '{"Width":"60 cm"}', 24.99, 56
+UNION ALL SELECT 'GT-1026', 'Wheelbarrow', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Steel barrow with a puncture-proof tyre.', '{"Volume":"85 L"}', 98.99, 58
+UNION ALL SELECT 'GT-1027', 'Bird Feeder, Squirrel-Proof', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Weight-activated feeder that closes when squirrels climb on.', '{"Capacity":"1.5 kg"}', 38.99, 51
+UNION ALL SELECT 'GT-1028', 'Insect Hotel', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Nesting spots for solitary bees and ladybirds.', '{"Height":"35 cm"}', 28.99, 36
+UNION ALL SELECT 'GT-1029', 'Wildflower Seed Mix', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Native flowers that feed pollinators.', '{"Covers":"10 m²"}', 8.95, 58
+UNION ALL SELECT 'GT-1030', 'Tomato Grow Bags (3)', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Fabric bags for patio tomatoes and potatoes.', '{"Volume":"40 L"}', 24.99, 51;
+
+INSERT IGNORE INTO products (sku, name, brand, category_id, description, attributes, price, stock)
+SELECT 'GT-1031', 'Greenhouse, Mini', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Four-tier plastic greenhouse for seedlings.', '{"Tiers":"4"}', 78.99, 39
+UNION ALL SELECT 'GT-1032', 'Solar Garden Lights (8)', 'Lumen', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Stake lights that glow along paths at night.', '{"Runtime":"8 h"}', 38.99, 46
+UNION ALL SELECT 'GT-1033', 'Fire Pit, Steel', 'Arbor', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Bowl fire pit with spark guard for cosy evenings outdoors.', '{"Diameter":"60 cm"}', 148.99, 50
+UNION ALL SELECT 'GT-1034', 'Charcoal Kettle Grill', 'Copperleaf', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Classic round barbecue with lid and thermometer.', '{"Grill":"57 cm"}', 198.99, 11
+UNION ALL SELECT 'GT-1035', 'Garden Bench, Teak', 'Oakline', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Weather-resistant teak bench for two.', '{"Width":"120 cm"}', 348.99, 0
+UNION ALL SELECT 'GT-1036', 'Outdoor Cushions (2)', 'Pebble', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Water-repellent seat pads.', '{"Size":"45 × 45 cm"}', 48.99, 60
+UNION ALL SELECT 'GT-1037', 'Parasol 3 m', 'Pebble', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Tilting sun umbrella with crank.', '{"Diameter":"3 m"}', 118.99, 2
+UNION ALL SELECT 'GT-1038', 'Pressure Washer', 'Arbor', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Cleans patios, cars and bikes.', '{"Pressure":"130 bar"}', 178.99, 57
+UNION ALL SELECT 'GT-1039', 'Tool Set, 108 pieces', 'Ridgeway', (SELECT id FROM categories WHERE slug = 'garden-tools'), 'Sockets, screwdrivers and pliers in a case for home repairs.', '{"Pieces":"108"}', 88.99, 8
+UNION ALL SELECT 'GT-1040', 'Cordless Drill Driver', 'Ridgeway', (SELECT id FROM categories WHERE slug = 'garden-tools'), '18 V drill with two batteries and a bit set.', '{"Voltage":"18 V","Torque":"50 Nm"}', 128.99, 4
+UNION ALL SELECT 'OF-1001', 'Ergonomic Office Chair', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Adjustable lumbar support, seat depth and 4D armrests that keep your spine supported through long workdays.', '{"Lumbar":"Adjustable","Armrests":"4D","Load":"130 kg"}', 398.99, 28
+UNION ALL SELECT 'OF-1002', 'Electric Standing Desk', 'Oakline', (SELECT id FROM categories WHERE slug = 'office'), 'Dual-motor sit-stand desk with memory presets, so you can change position through the day.', '{"Height":"62–127 cm","Top":"160 × 80 cm"}', 548.99, 4
+UNION ALL SELECT 'OF-1003', 'Lumbar Support Cushion', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Memory-foam back cushion that straps to any chair to ease lower-back ache.', '{"Material":"Memory foam"}', 38.99, 59
+UNION ALL SELECT 'OF-1004', 'Footrest, Adjustable', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Tilting footrest that improves posture under the desk.', '{"Angles":"3"}', 34.99, 9
+UNION ALL SELECT 'OF-1005', 'Monitor Arm, Gas Spring', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Frees desk space and puts the screen at eye level.', '{"Screens":"Up to 32\\""}', 88.99, 36
+UNION ALL SELECT 'OF-1006', 'Laptop Stand, Aluminium', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Raises the laptop screen to reduce neck strain.', '{"Height":"Adjustable"}', 44.99, 33
+UNION ALL SELECT 'OF-1007', 'Anti-Fatigue Mat', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Cushioned mat for standing desks.', '{"Size":"50 × 80 cm"}', 58.99, 17
+UNION ALL SELECT 'OF-1008', 'Desk Lamp, LED', 'Lumen', (SELECT id FROM categories WHERE slug = 'office'), 'Dimmable lamp with colour temperature control and USB charging.', '{"Output":"600 lm"}', 58.99, 28
+UNION ALL SELECT 'OF-1009', 'Monitor Light Bar', 'Lumen', (SELECT id FROM categories WHERE slug = 'office'), 'Lights the desk without screen glare.', '{"Power":"USB-C"}', 48.99, 58
+UNION ALL SELECT 'OF-1010', 'Desk Organiser, Wood', 'Oakline', (SELECT id FROM categories WHERE slug = 'office'), 'Trays for pens, phones and notes.', '{"Material":"Walnut"}', 28.99, 4
+UNION ALL SELECT 'OF-1011', 'Cable Management Tray', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Under-desk tray that hides power strips and cables.', '{"Length":"60 cm"}', 28.99, 52
+UNION ALL SELECT 'OF-1012', 'Notebook, Dotted A5', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Lay-flat notebook with 160 numbered pages.', '{"Pages":"160"}', 14.95, 8
+UNION ALL SELECT 'OF-1013', 'Fountain Pen', 'Copperleaf', (SELECT id FROM categories WHERE slug = 'office'), 'Steel-nib pen with a converter.', '{"Nib":"Medium"}', 48.99, 51
+UNION ALL SELECT 'OF-1014', 'Gel Pens (10)', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Smooth 0.5 mm pens in assorted colours.', '{"Tip":"0.5 mm"}', 11.95, 11
+UNION ALL SELECT 'OF-1015', 'Whiteboard, Magnetic', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Wall board for planning.', '{"Size":"90 × 60 cm"}', 68.99, 20;
+
+INSERT IGNORE INTO products (sku, name, brand, category_id, description, attributes, price, stock)
+SELECT 'OF-1016', 'Paper Shredder', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Cross-cut shredder for confidential documents.', '{"Sheets":"8"}', 78.99, 27
+UNION ALL SELECT 'OF-1017', 'Filing Cabinet, 3 Drawers', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Lockable steel cabinet on castors.', '{"Drawers":"3"}', 178.99, 17
+UNION ALL SELECT 'OF-1018', 'Office Printer, Laser', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Wireless mono laser printer with duplex.', '{"Speed":"30 ppm"}', 198.99, 43
+UNION ALL SELECT 'OF-1019', 'Document Scanner', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Duplex scanner that digitises receipts and contracts.', '{"Speed":"25 ppm"}', 248.99, 44
+UNION ALL SELECT 'OF-1020', 'Headset with Boom Mic', 'Nimbus', (SELECT id FROM categories WHERE slug = 'office'), 'Comfortable headset with noise-reducing mic for calls.', '{"Connection":"USB-C, Bluetooth"}', 88.99, 18
+UNION ALL SELECT 'OF-1021', 'Conference Speakerphone', 'Nimbus', (SELECT id FROM categories WHERE slug = 'office'), '360° microphone for meeting rooms.', '{"Range":"4 m"}', 128.99, 19
+UNION ALL SELECT 'OF-1022', 'Ergonomic Keyboard, Split', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Split layout with a cushioned palm rest to reduce wrist strain.', '{"Layout":"Split"}', 98.99, 7
+UNION ALL SELECT 'OF-1023', 'Mouse Pad, XL', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Desk-sized pad.', '{"Size":"90 × 40 cm"}', 18.95, 49
+UNION ALL SELECT 'OF-1024', 'Wrist Rest, Gel', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Soft support for keyboard and mouse.', '{"Material":"Gel"}', 14.95, 22
+UNION ALL SELECT 'OF-1025', 'Desk Plant, Snake Plant', 'Mosgaard', (SELECT id FROM categories WHERE slug = 'office'), 'Hardy plant that thrives on neglect.', '{"Pot":"12 cm"}', 24.99, 48
+UNION ALL SELECT 'OF-1026', 'Air Purifier, Desktop', 'Nimbus', (SELECT id FROM categories WHERE slug = 'office'), 'HEPA filter for a fresher home office.', '{"Room":"20 m²"}', 88.99, 34
+UNION ALL SELECT 'OF-1027', 'Desk Fan, Quiet', 'Nimbus', (SELECT id FROM categories WHERE slug = 'office'), 'USB fan with three speeds.', '{"Diameter":"15 cm"}', 38.99, 11
+UNION ALL SELECT 'OF-1028', 'Space Heater, Ceramic', 'Nimbus', (SELECT id FROM categories WHERE slug = 'office'), 'Compact heater for chilly home offices.', '{"Power":"1500 W"}', 58.99, 0
+UNION ALL SELECT 'OF-1029', 'Backpack, Laptop 16"', 'Strand', (SELECT id FROM categories WHERE slug = 'office'), 'Water-resistant commuter backpack with a padded laptop sleeve.', '{"Volume":"22 L"}', 88.99, 35
+UNION ALL SELECT 'OF-1030', 'Messenger Bag, Canvas', 'Strand', (SELECT id FROM categories WHERE slug = 'office'), 'Waxed canvas bag for a 13" laptop.', '{"Material":"Waxed canvas"}', 68.99, 53
+UNION ALL SELECT 'OF-1031', 'Planner, Weekly 2027', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Hardcover diary with a week on two pages.', '{"Size":"A5"}', 18.95, 35
+UNION ALL SELECT 'OF-1032', 'Sticky Notes Set', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Twelve pads in pastel colours.', '{"Pads":"12"}', 8.95, 41
+UNION ALL SELECT 'OF-1033', 'Label Maker Tape', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Refill tape for the label printer.', '{"Width":"12 mm"}', 11.95, 19
+UNION ALL SELECT 'OF-1034', 'Document Wallet Set', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Five recycled card wallets.', '{"Pieces":"5"}', 13.95, 1
+UNION ALL SELECT 'OF-1035', 'Pen Pot, Ceramic', 'Copperleaf', (SELECT id FROM categories WHERE slug = 'office'), 'Speckled glaze pen holder.', '{"Height":"10 cm"}', 14.95, 19
+UNION ALL SELECT 'OF-1036', 'Bookends, Brass', 'Copperleaf', (SELECT id FROM categories WHERE slug = 'office'), 'Heavy bookends for a desk shelf.', '{"Pieces":"2"}', 34.99, 22
+UNION ALL SELECT 'OF-1037', 'Kneeling Chair', 'Oakline', (SELECT id FROM categories WHERE slug = 'office'), 'Opens the hip angle for an upright posture.', '{"Material":"Beech, fabric"}', 148.99, 8
+UNION ALL SELECT 'OF-1038', 'Balance Ball Chair', 'Strand', (SELECT id FROM categories WHERE slug = 'office'), 'Stability ball in a frame for active sitting.', '{"Ball":"52 cm"}', 78.99, 32
+UNION ALL SELECT 'OF-1039', 'Privacy Screen Filter 14"', 'Pebble', (SELECT id FROM categories WHERE slug = 'office'), 'Stops people beside you from reading your laptop.', '{"Size":"14\\""}', 38.99, 2
+UNION ALL SELECT 'OF-1040', 'Desk Calendar, Wooden', 'Oakline', (SELECT id FROM categories WHERE slug = 'office'), 'Perpetual block calendar.', '{"Material":"Oak"}', 24.99, 22;
