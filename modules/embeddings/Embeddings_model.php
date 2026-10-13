@@ -38,7 +38,7 @@ class Embeddings_model extends Model {
             $this->db->query('DROP TABLE product_embeddings');
         }
 
-        $this->_run_sql_file(APPPATH . "db/vectors_{$backend}.sql", ['{dimensions}' => (string) $dimensions]);
+        $this->_run_sql_file(APPPATH . "db/vectors_{$backend}.sql", ['VECTOR(768)' => "VECTOR({$dimensions})"]);
 
         return $backend;
     }

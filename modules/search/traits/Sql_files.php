@@ -8,7 +8,7 @@ trait Sql_files {
     /**
      * Statements end with ; at the end of a line; -- comment lines are skipped
      *
-     * @param array<string, string> $replacements placeholders to fill in, e.g. ['{dimensions}' => '768']
+     * @param array<string, string> $replacements text to replace, e.g. ['VECTOR(768)' => 'VECTOR(256)']
      */
     function _run_sql_file(string $path, array $replacements = []): void {
         $sql = strtr(file_get_contents($path), $replacements);
