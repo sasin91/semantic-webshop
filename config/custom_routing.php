@@ -1,5 +1,6 @@
 <?php
 $routes = [
-    'tg-admin' => 'login/login/tg-admin'
+    'product/(:num)' => 'shop/product/$1',
+    'compare' => 'shop/compare'
 ];
 define('CUSTOM_ROUTES', $routes);

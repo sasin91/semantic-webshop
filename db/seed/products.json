@@ -1,0 +1,4988 @@
+{
+ "categories": [
+  {
+   "slug": "outdoor-clothing",
+   "name": "Outdoor clothing",
+   "icon": "🧥"
+  },
+  {
+   "slug": "camping",
+   "name": "Camping & hiking gear",
+   "icon": "⛺"
+  },
+  {
+   "slug": "kitchen",
+   "name": "Kitchen & cooking",
+   "icon": "🍳"
+  },
+  {
+   "slug": "coffee-tea",
+   "name": "Coffee & tea",
+   "icon": "☕"
+  },
+  {
+   "slug": "electronics",
+   "name": "Electronics",
+   "icon": "🎧"
+  },
+  {
+   "slug": "home-furniture",
+   "name": "Home & furniture",
+   "icon": "🛋️"
+  },
+  {
+   "slug": "bath-bedding",
+   "name": "Bath & bedding",
+   "icon": "🛏️"
+  },
+  {
+   "slug": "sports-fitness",
+   "name": "Sports & fitness",
+   "icon": "🏋️"
+  },
+  {
+   "slug": "garden-tools",
+   "name": "Garden & tools",
+   "icon": "🌱"
+  },
+  {
+   "slug": "office",
+   "name": "Home office",
+   "icon": "🖥️"
+  }
+ ],
+ "products": [
+  {
+   "sku": "OC-1001",
+   "name": "Insulated Softshell, Water-Resistant",
+   "brand": "Fjellvik",
+   "category": "outdoor-clothing",
+   "price": 148.99,
+   "stock": 33,
+   "description": "Lightweight synthetic fill traps body heat on cold ascents while a DWR-treated face sheds showers and drizzle. Stretch side panels move with you on scrambles; two zipped hand pockets and an adjustable hood.",
+   "attributes": {
+    "Fill": "60 g/m² synthetic",
+    "Weight": "480 g",
+    "Fit": "Regular"
+   }
+  },
+  {
+   "sku": "OC-1002",
+   "name": "Stormline 3L Shell",
+   "brand": "Nordtrail",
+   "category": "outdoor-clothing",
+   "price": 228.99,
+   "stock": 20,
+   "description": "Three-layer waterproof membrane with fully taped seams for days of sustained downpour. Pit zips dump heat on steep climbs and the helmet-compatible hood keeps its shape in gusts.",
+   "attributes": {
+    "Waterproofing": "20,000 mm",
+    "Breathability": "20,000 g/m²/24h",
+    "Weight": "410 g"
+   }
+  },
+  {
+   "sku": "OC-1003",
+   "name": "Merino 200 Base Layer Crew",
+   "brand": "Halden",
+   "category": "outdoor-clothing",
+   "price": 68.99,
+   "stock": 0,
+   "description": "Fine merino wool next to the skin regulates temperature and resists odour for multi-day trips. Flatlock seams avoid chafing under a pack.",
+   "attributes": {
+    "Material": "100% merino wool",
+    "Weight": "200 g/m²",
+    "Sizes": "XS–XXL"
+   }
+  },
+  {
+   "sku": "OC-1004",
+   "name": "Merino 150 Leggings",
+   "brand": "Halden",
+   "category": "outdoor-clothing",
+   "price": 58.99,
+   "stock": 22,
+   "description": "Soft merino tights for sleeping in a cold tent or wearing under trousers on frosty mornings. Gusseted crotch and a wide, flat waistband.",
+   "attributes": {
+    "Material": "Merino wool",
+    "Weight": "150 g/m²"
+   }
+  },
+  {
+   "sku": "OC-1005",
+   "name": "Featherlite Down Jacket",
+   "brand": "Fjellvik",
+   "category": "outdoor-clothing",
+   "price": 198.99,
+   "stock": 0,
+   "description": "800-fill-power goose down in a 20-denier shell packs into its own pocket. A cosy mid layer for belay stops and evenings at camp.",
+   "attributes": {
+    "Fill power": "800",
+    "Fill weight": "120 g",
+    "Packed size": "Fist-sized"
+   }
+  },
+  {
+   "sku": "OC-1006",
+   "name": "Ridge Fleece Half-Zip",
+   "brand": "Ridgeway",
+   "category": "outdoor-clothing",
+   "price": 53.99,
+   "stock": 21,
+   "description": "Grid-backed fleece that breathes when you work hard and insulates when you stop. Thumb loops and a chest pocket for a phone.",
+   "attributes": {
+    "Material": "Recycled polyester grid fleece",
+    "Weight": "290 g"
+   }
+  },
+  {
+   "sku": "OC-1007",
+   "name": "Trekking Trousers Convertible",
+   "brand": "Nordtrail",
+   "category": "outdoor-clothing",
+   "price": 78.99,
+   "stock": 12,
+   "description": "Zip-off legs turn these into shorts when the valley heats up. Quick-drying ripstop with a stretch gusset and a map pocket on the thigh.",
+   "attributes": {
+    "Material": "Nylon ripstop with elastane",
+    "UPF": "50+"
+   }
+  },
+  {
+   "sku": "OC-1008",
+   "name": "Winter Softshell Trousers",
+   "brand": "Fjellvik",
+   "category": "outdoor-clothing",
+   "price": 118.99,
+   "stock": 30,
+   "description": "Brushed inner face and a wind-resistant outer for ski touring and snowshoeing. Reinforced instep patches and boot hooks.",
+   "attributes": {
+    "Material": "Softshell, brushed back",
+    "Fit": "Articulated knees"
+   }
+  },
+  {
+   "sku": "OC-1009",
+   "name": "Packable Rain Poncho",
+   "brand": "Tidewater",
+   "category": "outdoor-clothing",
+   "price": 28.99,
+   "stock": 43,
+   "description": "A roomy poncho that covers you and your backpack in a sudden cloudburst, then stuffs into a pouch the size of an apple.",
+   "attributes": {
+    "Waterproofing": "5,000 mm",
+    "Weight": "290 g"
+   }
+  },
+  {
+   "sku": "OC-1010",
+   "name": "Waterproof Overtrousers",
+   "brand": "Nordtrail",
+   "category": "outdoor-clothing",
+   "price": 88.99,
+   "stock": 55,
+   "description": "Full-length side zips let you pull these on over boots when the weather turns. Taped seams and adjustable ankle cuffs.",
+   "attributes": {
+    "Waterproofing": "15,000 mm",
+    "Weight": "330 g"
+   }
+  },
+  {
+   "sku": "OC-1011",
+   "name": "Kids' Puddle Suit",
+   "brand": "Tidewater",
+   "category": "outdoor-clothing",
+   "price": 44.99,
+   "stock": 21,
+   "description": "One-piece waterproof suit for jumping in puddles and muddy forest walks. Elastic foot loops keep the legs over wellies.",
+   "attributes": {
+    "Waterproofing": "8,000 mm",
+    "Ages": "2–8"
+   }
+  },
+  {
+   "sku": "OC-1012",
+   "name": "Wool Beanie, Ribbed",
+   "brand": "Halden",
+   "category": "outdoor-clothing",
+   "price": 24.99,
+   "stock": 0,
+   "description": "A snug lambswool hat with a fleece band over the ears for frosty mornings.",
+   "attributes": {
+    "Material": "Lambswool, fleece band"
+   }
+  },
+  {
+   "sku": "OC-1013",
+   "name": "Touchscreen Liner Gloves",
+   "brand": "Ridgeway",
+   "category": "outdoor-clothing",
+   "price": 21.99,
+   "stock": 26,
+   "description": "Thin stretch gloves with conductive fingertips so you can use your phone without exposing your hands to the cold.",
+   "attributes": {
+    "Material": "Polyester/elastane"
+   }
+  },
+  {
+   "sku": "OC-1014",
+   "name": "Expedition Mittens",
+   "brand": "Fjellvik",
+   "category": "outdoor-clothing",
+   "price": 94.99,
+   "stock": 10,
+   "description": "Down-filled overmitts with a waterproof shell and leash for the coldest summit days.",
+   "attributes": {
+    "Fill": "700-fill down",
+    "Temperature": "Down to -30 °C"
+   }
+  },
+  {
+   "sku": "OC-1015",
+   "name": "Sun Hoodie UPF 50",
+   "brand": "Brisa",
+   "category": "outdoor-clothing",
+   "price": 48.99,
+   "stock": 48,
+   "description": "Featherweight long-sleeve hoodie that blocks UV on exposed ridges and desert trails while wicking sweat.",
+   "attributes": {
+    "UPF": "50+",
+    "Weight": "160 g"
+   }
+  },
+  {
+   "sku": "OC-1016",
+   "name": "Wide-Brim Trail Hat",
+   "brand": "Brisa",
+   "category": "outdoor-clothing",
+   "price": 34.99,
+   "stock": 52,
+   "description": "Packable sun hat with a chin cord and a mesh band for ventilation on hot hikes.",
+   "attributes": {
+    "UPF": "50+",
+    "Brim": "8 cm"
+   }
+  },
+  {
+   "sku": "OC-1017",
+   "name": "Hiking Socks, Cushioned (3-pack)",
+   "brand": "Halden",
+   "category": "outdoor-clothing",
+   "price": 33.99,
+   "stock": 10,
+   "description": "Merino-blend socks with terry cushioning under heel and forefoot to prevent blisters on long days.",
+   "attributes": {
+    "Material": "Merino/nylon blend",
+    "Height": "Crew"
+   }
+  },
+  {
+   "sku": "OC-1018",
+   "name": "Gaiters, Waterproof",
+   "brand": "Nordtrail",
+   "category": "outdoor-clothing",
+   "price": 38.99,
+   "stock": 47,
+   "description": "Knee-high gaiters keep snow, mud and scree out of your boots. Hook-and-loop front closure and a steel instep cable.",
+   "attributes": {
+    "Height": "40 cm",
+    "Material": "Waterproof nylon"
+   }
+  },
+  {
+   "sku": "OC-1019",
+   "name": "Leather Hiking Boots Mid",
+   "brand": "Fjellvik",
+   "category": "outdoor-clothing",
+   "price": 188.99,
+   "stock": 0,
+   "description": "Full-grain leather boots with a waterproof lining and a grippy lugged sole for rocky, wet terrain. Break in quickly thanks to a padded collar.",
+   "attributes": {
+    "Upper": "Full-grain leather",
+    "Lining": "Waterproof membrane",
+    "Weight": "1.2 kg/pair"
+   }
+  },
+  {
+   "sku": "OC-1020",
+   "name": "Trail Running Shoes",
+   "brand": "Kestrel",
+   "category": "outdoor-clothing",
+   "price": 128.99,
+   "stock": 27,
+   "description": "Lightweight shoes with 5 mm lugs and a rock plate for fast mountain trails. Quick-lace system.",
+   "attributes": {
+    "Drop": "6 mm",
+    "Weight": "280 g/shoe"
+   }
+  },
+  {
+   "sku": "OC-1021",
+   "name": "Approach Shoes",
+   "brand": "Kestrel",
+   "category": "outdoor-clothing",
+   "price": 138.99,
+   "stock": 49,
+   "description": "Sticky rubber toe and a climbing-zone lacing for rocky approaches and easy scrambles.",
+   "attributes": {
+    "Sole": "Sticky climbing rubber"
+   }
+  },
+  {
+   "sku": "OC-1022",
+   "name": "Insulated Winter Boots",
+   "brand": "Fjellvik",
+   "category": "outdoor-clothing",
+   "price": 168.99,
+   "stock": 46,
+   "description": "Warm-lined boots with a removable felt liner for snow, slush and icy pavements.",
+   "attributes": {
+    "Rating": "-40 °C",
+    "Liner": "Removable felt"
+   }
+  },
+  {
+   "sku": "OC-1023",
+   "name": "Camp Slippers, Down",
+   "brand": "Fjellvik",
+   "category": "outdoor-clothing",
+   "price": 48.99,
+   "stock": 12,
+   "description": "Down booties with a tough sole for padding around the hut or tent in the evening.",
+   "attributes": {
+    "Fill": "600-fill down"
+   }
+  },
+  {
+   "sku": "OC-1024",
+   "name": "Windproof Running Jacket",
+   "brand": "Kestrel",
+   "category": "outdoor-clothing",
+   "price": 88.99,
+   "stock": 0,
+   "description": "Feather-light wind shell that blocks gusts on exposed runs and folds into its chest pocket.",
+   "attributes": {
+    "Weight": "95 g",
+    "Reflective": "Yes"
+   }
+  },
+  {
+   "sku": "OC-1025",
+   "name": "Hi-Vis Cycling Vest",
+   "brand": "Strand",
+   "category": "outdoor-clothing",
+   "price": 28.99,
+   "stock": 28,
+   "description": "Fluorescent vest with reflective bands to be seen on dark commutes.",
+   "attributes": {
+    "Standard": "EN 17353",
+    "Reflective": "360°"
+   }
+  },
+  {
+   "sku": "OC-1026",
+   "name": "Commuter Rain Cape",
+   "brand": "Strand",
+   "category": "outdoor-clothing",
+   "price": 58.99,
+   "stock": 0,
+   "description": "A cycling cape with thumb loops and a long back that keeps your legs dry on the ride to work.",
+   "attributes": {
+    "Waterproofing": "10,000 mm"
+   }
+  },
+  {
+   "sku": "OC-1027",
+   "name": "Parka, Arctic",
+   "brand": "Nordtrail",
+   "category": "outdoor-clothing",
+   "price": 348.99,
+   "stock": 9,
+   "description": "Knee-length parka with a fur-free ruff and 700-fill down for city winters and northern trips.",
+   "attributes": {
+    "Fill": "700-fill down",
+    "Length": "Knee"
+   }
+  },
+  {
+   "sku": "OC-1028",
+   "name": "Insulated Vest",
+   "brand": "Ridgeway",
+   "category": "outdoor-clothing",
+   "price": 78.99,
+   "stock": 18,
+   "description": "Synthetic-fill gilet that keeps your core warm without overheating your arms.",
+   "attributes": {
+    "Fill": "80 g/m² synthetic"
+   }
+  },
+  {
+   "sku": "OC-1029",
+   "name": "Kids' Fleece Jacket",
+   "brand": "Ridgeway",
+   "category": "outdoor-clothing",
+   "price": 34.99,
+   "stock": 7,
+   "description": "Soft, warm fleece for children with chin guard and elastic cuffs.",
+   "attributes": {
+    "Ages": "4–14"
+   }
+  },
+  {
+   "sku": "OC-1030",
+   "name": "Women's Hiking Skort",
+   "brand": "Brisa",
+   "category": "outdoor-clothing",
+   "price": 54.99,
+   "stock": 3,
+   "description": "Stretch skort with built-in shorts and a zip pocket for summer trails.",
+   "attributes": {
+    "Material": "Nylon/elastane"
+   }
+  },
+  {
+   "sku": "OC-1031",
+   "name": "Buff Neck Gaiter",
+   "brand": "Halden",
+   "category": "outdoor-clothing",
+   "price": 18.95,
+   "stock": 47,
+   "description": "Seamless tube of merino worn as a scarf, hat or face cover against wind and sun.",
+   "attributes": {
+    "Material": "Merino wool"
+   }
+  },
+  {
+   "sku": "OC-1032",
+   "name": "Balaclava, Windstopper",
+   "brand": "Ridgeway",
+   "category": "outdoor-clothing",
+   "price": 26.99,
+   "stock": 49,
+   "description": "Face and neck protection for ski days and winter cycling.",
+   "attributes": {
+    "Material": "Windproof fleece"
+   }
+  },
+  {
+   "sku": "OC-1033",
+   "name": "Ski Jacket, Insulated",
+   "brand": "Fjellvik",
+   "category": "outdoor-clothing",
+   "price": 278.99,
+   "stock": 58,
+   "description": "Waterproof, insulated ski jacket with a powder skirt, ski-pass pocket and helmet-compatible hood.",
+   "attributes": {
+    "Waterproofing": "20,000 mm",
+    "Insulation": "100 g/m²"
+   }
+  },
+  {
+   "sku": "OC-1034",
+   "name": "Ski Pants, Bib",
+   "brand": "Fjellvik",
+   "category": "outdoor-clothing",
+   "price": 218.99,
+   "stock": 27,
+   "description": "Bib-style ski trousers that keep snow out when you fall. Thigh vents and scuff guards.",
+   "attributes": {
+    "Waterproofing": "20,000 mm"
+   }
+  },
+  {
+   "sku": "OC-1035",
+   "name": "Thermal Underwear Set",
+   "brand": "Halden",
+   "category": "outdoor-clothing",
+   "price": 48.99,
+   "stock": 46,
+   "description": "Long-sleeve top and long johns in brushed polyester for cold-weather layering.",
+   "attributes": {
+    "Material": "Brushed polyester"
+   }
+  },
+  {
+   "sku": "OC-1036",
+   "name": "Softshell Gloves",
+   "brand": "Ridgeway",
+   "category": "outdoor-clothing",
+   "price": 38.99,
+   "stock": 24,
+   "description": "Wind-resistant gloves with a grippy palm for cold-weather hiking and biking.",
+   "attributes": {
+    "Material": "Softshell, silicone grip"
+   }
+  },
+  {
+   "sku": "OC-1037",
+   "name": "Trekking Shorts",
+   "brand": "Nordtrail",
+   "category": "outdoor-clothing",
+   "price": 44.99,
+   "stock": 18,
+   "description": "Quick-dry shorts with a gusseted crotch and a zipped thigh pocket.",
+   "attributes": {
+    "Inseam": "20 cm"
+   }
+  },
+  {
+   "sku": "OC-1038",
+   "name": "Rain Jacket, Kids",
+   "brand": "Tidewater",
+   "category": "outdoor-clothing",
+   "price": 48.99,
+   "stock": 9,
+   "description": "Fully seam-taped jacket for school runs and wet weekends, with a detachable hood.",
+   "attributes": {
+    "Waterproofing": "10,000 mm",
+    "Ages": "3–12"
+   }
+  },
+  {
+   "sku": "OC-1039",
+   "name": "Lightweight Wind Pants",
+   "brand": "Kestrel",
+   "category": "outdoor-clothing",
+   "price": 58.99,
+   "stock": 0,
+   "description": "Packable windproof trousers for summit pushes and breezy camps.",
+   "attributes": {
+    "Weight": "140 g"
+   }
+  },
+  {
+   "sku": "OC-1040",
+   "name": "Wellington Boots",
+   "brand": "Tidewater",
+   "category": "outdoor-clothing",
+   "price": 64.99,
+   "stock": 29,
+   "description": "Natural-rubber wellies with a cushioned footbed for gardening, festivals and farm walks.",
+   "attributes": {
+    "Material": "Natural rubber",
+    "Height": "38 cm"
+   }
+  },
+  {
+   "sku": "CP-1001",
+   "name": "Kestrel K-450 Headlamp",
+   "brand": "Kestrel",
+   "category": "camping",
+   "price": 48.99,
+   "stock": 0,
+   "description": "450-lumen head torch with a red night mode and a lock-out switch. USB-C rechargeable battery lasts a full night on low.",
+   "attributes": {
+    "Model": "K-450",
+    "Output": "450 lm",
+    "Battery": "USB-C rechargeable, 1800 mAh",
+    "Water rating": "IPX4"
+   }
+  },
+  {
+   "sku": "CP-1002",
+   "name": "Kestrel K-200 Headlamp",
+   "brand": "Kestrel",
+   "category": "camping",
+   "price": 28.99,
+   "stock": 3,
+   "description": "Compact 200-lumen headlamp on three AAA batteries, a good spare for the glovebox.",
+   "attributes": {
+    "Model": "K-200",
+    "Output": "200 lm",
+    "Battery": "3× AAA"
+   }
+  },
+  {
+   "sku": "CP-1003",
+   "name": "Two-Person Backpacking Tent",
+   "brand": "Nordtrail",
+   "category": "camping",
+   "price": 348.99,
+   "stock": 6,
+   "description": "Freestanding dome with two doors and two vestibules, pitched in five minutes. Weighs under 1.5 kg for long-distance trips.",
+   "attributes": {
+    "Capacity": "2 people",
+    "Weight": "1.45 kg",
+    "Hydrostatic head": "3,000 mm"
+   }
+  },
+  {
+   "sku": "CP-1004",
+   "name": "Family Tunnel Tent 6",
+   "brand": "Nordtrail",
+   "category": "camping",
+   "price": 498.99,
+   "stock": 18,
+   "description": "Six berths, a blackout bedroom and a tall living area for rainy family holidays at the campsite.",
+   "attributes": {
+    "Capacity": "6 people",
+    "Height": "2.1 m",
+    "Weight": "17 kg"
+   }
+  },
+  {
+   "sku": "CP-1005",
+   "name": "Ultralight Tarp 3×3",
+   "brand": "Solvind",
+   "category": "camping",
+   "price": 118.99,
+   "stock": 50,
+   "description": "Silnylon tarp with 16 tie-outs for flexible shelters and kitchen cover.",
+   "attributes": {
+    "Size": "3 × 3 m",
+    "Weight": "480 g"
+   }
+  },
+  {
+   "sku": "CP-1006",
+   "name": "Down Sleeping Bag -5 °C",
+   "brand": "Fjellvik",
+   "category": "camping",
+   "price": 278.99,
+   "stock": 52,
+   "description": "Mummy bag filled with 750-fill down for three-season trips. Draft collar and anti-snag zip.",
+   "attributes": {
+    "Comfort": "-5 °C",
+    "Weight": "980 g"
+   }
+  },
+  {
+   "sku": "CP-1007",
+   "name": "Synthetic Sleeping Bag +5 °C",
+   "brand": "Solvind",
+   "category": "camping",
+   "price": 88.99,
+   "stock": 0,
+   "description": "Rectangular summer bag that unzips into a quilt and keeps insulating when damp.",
+   "attributes": {
+    "Comfort": "+5 °C",
+    "Weight": "1.4 kg"
+   }
+  },
+  {
+   "sku": "CP-1008",
+   "name": "Self-Inflating Mat",
+   "brand": "Solvind",
+   "category": "camping",
+   "price": 68.99,
+   "stock": 0,
+   "description": "Open-cell foam mat that inflates itself and insulates you from cold ground.",
+   "attributes": {
+    "R-value": "3.5",
+    "Thickness": "5 cm"
+   }
+  },
+  {
+   "sku": "CP-1009",
+   "name": "Insulated Air Pad",
+   "brand": "Nordtrail",
+   "category": "camping",
+   "price": 158.99,
+   "stock": 26,
+   "description": "Ultralight inflatable pad with reflective layers for winter camping.",
+   "attributes": {
+    "R-value": "6.2",
+    "Weight": "480 g"
+   }
+  },
+  {
+   "sku": "CP-1010",
+   "name": "Camping Pillow, Inflatable",
+   "brand": "Solvind",
+   "category": "camping",
+   "price": 28.99,
+   "stock": 2,
+   "description": "Contoured pillow that packs to the size of a fist.",
+   "attributes": {
+    "Weight": "80 g"
+   }
+  },
+  {
+   "sku": "CP-1011",
+   "name": "Hammock with Bug Net",
+   "brand": "Solvind",
+   "category": "camping",
+   "price": 78.99,
+   "stock": 30,
+   "description": "Parachute-nylon hammock with an integrated mosquito net and tree straps.",
+   "attributes": {
+    "Load": "150 kg",
+    "Weight": "750 g"
+   }
+  },
+  {
+   "sku": "CP-1012",
+   "name": "Backpacking Stove, Canister",
+   "brand": "Kestrel",
+   "category": "camping",
+   "price": 44.99,
+   "stock": 14,
+   "description": "Folding gas stove that boils a litre of water in about three minutes.",
+   "attributes": {
+    "Output": "2.8 kW",
+    "Weight": "85 g"
+   }
+  },
+  {
+   "sku": "CP-1013",
+   "name": "Integrated Cook System 1 L",
+   "brand": "Kestrel",
+   "category": "camping",
+   "price": 128.99,
+   "stock": 2,
+   "description": "Stove and pot combined with a heat exchanger for fast, wind-resistant boiling.",
+   "attributes": {
+    "Volume": "1 L",
+    "Boil time": "100 s"
+   }
+  },
+  {
+   "sku": "CP-1014",
+   "name": "Titanium Pot 750 ml",
+   "brand": "Arbor",
+   "category": "camping",
+   "price": 38.99,
+   "stock": 58,
+   "description": "Featherweight titanium pot that doubles as a mug.",
+   "attributes": {
+    "Material": "Titanium",
+    "Weight": "105 g"
+   }
+  },
+  {
+   "sku": "CP-1015",
+   "name": "Camp Cookware Set",
+   "brand": "Arbor",
+   "category": "camping",
+   "price": 58.99,
+   "stock": 44,
+   "description": "Nesting pots, a pan and plates for two in one bag.",
+   "attributes": {
+    "Pieces": "8",
+    "Material": "Hard-anodised aluminium"
+   }
+  },
+  {
+   "sku": "CP-1016",
+   "name": "Vacuum Flask 1 L",
+   "brand": "Arbor",
+   "category": "camping",
+   "price": 38.99,
+   "stock": 0,
+   "description": "Double-walled stainless-steel bottle that keeps tea steaming for 24 hours, with a cup lid.",
+   "attributes": {
+    "Volume": "1 L",
+    "Keeps hot": "24 h",
+    "Keeps cold": "48 h"
+   }
+  },
+  {
+   "sku": "CP-1017",
+   "name": "Water Filter, Squeeze",
+   "brand": "Tidewater",
+   "category": "camping",
+   "price": 38.99,
+   "stock": 19,
+   "description": "Hollow-fibre filter that removes bacteria and protozoa from streams and lakes.",
+   "attributes": {
+    "Pore size": "0.1 micron",
+    "Capacity": "Up to 100,000 L"
+   }
+  },
+  {
+   "sku": "CP-1018",
+   "name": "Water Purifier Bottle",
+   "brand": "Tidewater",
+   "category": "camping",
+   "price": 58.99,
+   "stock": 38,
+   "description": "Bottle with a built-in filter for travel and hiking.",
+   "attributes": {
+    "Volume": "650 ml"
+   }
+  },
+  {
+   "sku": "CP-1019",
+   "name": "Collapsible Water Carrier 10 L",
+   "brand": "Tidewater",
+   "category": "camping",
+   "price": 18.95,
+   "stock": 0,
+   "description": "Flat-packing jerrycan with a tap for camp.",
+   "attributes": {
+    "Volume": "10 L"
+   }
+  },
+  {
+   "sku": "CP-1020",
+   "name": "Solar Panel 21 W, Foldable",
+   "brand": "Lumen",
+   "category": "camping",
+   "price": 88.99,
+   "stock": 36,
+   "description": "Folding solar charger with two USB ports to top up phones and power banks at camp.",
+   "attributes": {
+    "Output": "21 W",
+    "Ports": "2× USB-A"
+   }
+  },
+  {
+   "sku": "CP-1021",
+   "name": "Power Bank 20,000 mAh",
+   "brand": "Lumen",
+   "category": "camping",
+   "price": 48.99,
+   "stock": 41,
+   "description": "High-capacity battery pack with USB-C PD that charges a phone four times over.",
+   "attributes": {
+    "Capacity": "20,000 mAh",
+    "Output": "20 W USB-C PD"
+   }
+  },
+  {
+   "sku": "CP-1022",
+   "name": "Rechargeable Camping Lantern",
+   "brand": "Lumen",
+   "category": "camping",
+   "price": 34.99,
+   "stock": 15,
+   "description": "Warm-light lantern with a hook and a power-bank function.",
+   "attributes": {
+    "Output": "300 lm",
+    "Runtime": "Up to 60 h"
+   }
+  },
+  {
+   "sku": "CP-1023",
+   "name": "Camp Chair, Folding",
+   "brand": "Arbor",
+   "category": "camping",
+   "price": 48.99,
+   "stock": 0,
+   "description": "Lightweight chair that packs into a small bag and supports 120 kg.",
+   "attributes": {
+    "Load": "120 kg",
+    "Weight": "1 kg"
+   }
+  },
+  {
+   "sku": "CP-1024",
+   "name": "Camp Table, Roll-Top",
+   "brand": "Arbor",
+   "category": "camping",
+   "price": 68.99,
+   "stock": 53,
+   "description": "Aluminium table with a roll-up top for camp kitchens.",
+   "attributes": {
+    "Size": "70 × 70 cm"
+   }
+  },
+  {
+   "sku": "CP-1025",
+   "name": "Hiking Backpack 45 L",
+   "brand": "Nordtrail",
+   "category": "camping",
+   "price": 158.99,
+   "stock": 3,
+   "description": "Ventilated back system, hip-belt pockets and a rain cover for multi-day treks.",
+   "attributes": {
+    "Volume": "45 L",
+    "Weight": "1.5 kg"
+   }
+  },
+  {
+   "sku": "CP-1026",
+   "name": "Daypack 22 L",
+   "brand": "Nordtrail",
+   "category": "camping",
+   "price": 78.99,
+   "stock": 6,
+   "description": "Comfortable pack for day hikes with a hydration sleeve.",
+   "attributes": {
+    "Volume": "22 L"
+   }
+  },
+  {
+   "sku": "CP-1027",
+   "name": "Trekking Poles, Carbon",
+   "brand": "Kestrel",
+   "category": "camping",
+   "price": 98.99,
+   "stock": 0,
+   "description": "Foldable carbon poles with cork grips to save your knees on descents.",
+   "attributes": {
+    "Material": "Carbon",
+    "Weight": "380 g/pair"
+   }
+  },
+  {
+   "sku": "CP-1028",
+   "name": "First Aid Kit, Trail",
+   "brand": "Tidewater",
+   "category": "camping",
+   "price": 34.99,
+   "stock": 25,
+   "description": "Compact kit with blister plasters, dressings, tweezers and a foil blanket for day hikes.",
+   "attributes": {
+    "Items": "45",
+    "Weight": "220 g"
+   }
+  },
+  {
+   "sku": "CP-1029",
+   "name": "Emergency Bivvy Bag",
+   "brand": "Tidewater",
+   "category": "camping",
+   "price": 18.95,
+   "stock": 1,
+   "description": "Reflective survival bag that keeps body heat in if you are stuck overnight.",
+   "attributes": {
+    "Weight": "110 g"
+   }
+  },
+  {
+   "sku": "CP-1030",
+   "name": "Multi-Tool 14-in-1",
+   "brand": "Ridgeway",
+   "category": "camping",
+   "price": 58.99,
+   "stock": 4,
+   "description": "Pliers, knife, screwdrivers and a saw in one stainless-steel tool.",
+   "attributes": {
+    "Tools": "14"
+   }
+  },
+  {
+   "sku": "CP-1031",
+   "name": "Folding Knife",
+   "brand": "Ridgeway",
+   "category": "camping",
+   "price": 38.99,
+   "stock": 20,
+   "description": "Locking blade with a wooden handle for camp cooking and whittling.",
+   "attributes": {
+    "Blade": "8 cm"
+   }
+  },
+  {
+   "sku": "CP-1032",
+   "name": "Fire Steel",
+   "brand": "Ridgeway",
+   "category": "camping",
+   "price": 14.95,
+   "stock": 1,
+   "description": "Ferrocerium rod that throws hot sparks in any weather.",
+   "attributes": {
+    "Strikes": "12,000"
+   }
+  },
+  {
+   "sku": "CP-1033",
+   "name": "Compass, Baseplate",
+   "brand": "Nordtrail",
+   "category": "camping",
+   "price": 24.99,
+   "stock": 6,
+   "description": "Map compass with a magnifier and declination adjustment.",
+   "attributes": {
+    "Type": "Baseplate"
+   }
+  },
+  {
+   "sku": "CP-1034",
+   "name": "GPS Watch, Outdoor",
+   "brand": "Kestrel",
+   "category": "camping",
+   "price": 298.99,
+   "stock": 45,
+   "description": "Rugged watch with offline maps, altimeter, barometer and 14-day battery life.",
+   "attributes": {
+    "Battery": "14 days",
+    "Sensors": "GPS, altimeter, barometer"
+   }
+  },
+  {
+   "sku": "CP-1035",
+   "name": "Bear Canister",
+   "brand": "Arbor",
+   "category": "camping",
+   "price": 78.99,
+   "stock": 39,
+   "description": "Hard-sided food container for wilderness areas.",
+   "attributes": {
+    "Volume": "11.5 L"
+   }
+  },
+  {
+   "sku": "CP-1036",
+   "name": "Mosquito Head Net",
+   "brand": "Tidewater",
+   "category": "camping",
+   "price": 8.95,
+   "stock": 42,
+   "description": "Fine mesh net that fits over a hat to keep midges away.",
+   "attributes": {
+    "Mesh": "Fine no-see-um"
+   }
+  },
+  {
+   "sku": "CP-1037",
+   "name": "Insect Repellent Spray",
+   "brand": "Tidewater",
+   "category": "camping",
+   "price": 11.95,
+   "stock": 46,
+   "description": "Long-lasting repellent against mosquitoes and ticks.",
+   "attributes": {
+    "Protection": "8 h"
+   }
+  },
+  {
+   "sku": "CP-1038",
+   "name": "Cool Box 30 L",
+   "brand": "Arbor",
+   "category": "camping",
+   "price": 88.99,
+   "stock": 53,
+   "description": "Insulated cooler that keeps drinks cold for three days at the beach or campsite.",
+   "attributes": {
+    "Volume": "30 L",
+    "Ice retention": "3 days"
+   }
+  },
+  {
+   "sku": "CP-1039",
+   "name": "Dry Bag Set",
+   "brand": "Tidewater",
+   "category": "camping",
+   "price": 28.99,
+   "stock": 0,
+   "description": "Three roll-top dry bags to keep clothes and electronics dry in kayaks and backpacks.",
+   "attributes": {
+    "Sizes": "5, 10, 20 L"
+   }
+  },
+  {
+   "sku": "CP-1040",
+   "name": "Waterproof Cycling Pannier",
+   "brand": "Strand",
+   "category": "camping",
+   "price": 78.99,
+   "stock": 22,
+   "description": "Roll-top pannier that clips to a rack and keeps laptops and clothes dry on rainy commutes.",
+   "attributes": {
+    "Volume": "20 L",
+    "Waterproofing": "Welded seams"
+   }
+  },
+  {
+   "sku": "KT-1001",
+   "name": "Cast Iron Skillet 26 cm",
+   "brand": "Copperleaf",
+   "category": "kitchen",
+   "price": 44.99,
+   "stock": 9,
+   "description": "Pre-seasoned cast iron pan that sears steak, bakes cornbread and lasts for generations. Works on induction and over a campfire.",
+   "attributes": {
+    "Diameter": "26 cm",
+    "Material": "Cast iron",
+    "Induction": "Yes"
+   }
+  },
+  {
+   "sku": "KT-1002",
+   "name": "Enamelled Dutch Oven 5 L",
+   "brand": "Copperleaf",
+   "category": "kitchen",
+   "price": 118.99,
+   "stock": 0,
+   "description": "Heavy enamelled casserole for slow braises, stews and no-knead bread.",
+   "attributes": {
+    "Volume": "5 L",
+    "Oven safe": "250 °C"
+   }
+  },
+  {
+   "sku": "KT-1003",
+   "name": "Stainless Steel Saucepan Set",
+   "brand": "Copperleaf",
+   "category": "kitchen",
+   "price": 148.99,
+   "stock": 40,
+   "description": "Three tri-ply saucepans with lids that heat evenly on any hob.",
+   "attributes": {
+    "Pieces": "3 pans + lids",
+    "Material": "Tri-ply stainless"
+   }
+  },
+  {
+   "sku": "KT-1004",
+   "name": "Non-Stick Frying Pan 28 cm",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 38.99,
+   "stock": 58,
+   "description": "PFAS-free ceramic coating so eggs and pancakes slide straight off.",
+   "attributes": {
+    "Diameter": "28 cm",
+    "Coating": "Ceramic, PFAS-free"
+   }
+  },
+  {
+   "sku": "KT-1005",
+   "name": "Carbon Steel Wok",
+   "brand": "Kyto",
+   "category": "kitchen",
+   "price": 48.99,
+   "stock": 49,
+   "description": "Hand-hammered wok that gets smoking hot for proper stir-fries.",
+   "attributes": {
+    "Diameter": "35 cm"
+   }
+  },
+  {
+   "sku": "KT-1006",
+   "name": "Chef's Knife 20 cm",
+   "brand": "Kyto",
+   "category": "kitchen",
+   "price": 88.99,
+   "stock": 57,
+   "description": "Japanese-style steel blade with a hard edge that glides through onions and herbs.",
+   "attributes": {
+    "Blade": "20 cm, VG-10 steel",
+    "Hardness": "60 HRC"
+   }
+  },
+  {
+   "sku": "KT-1007",
+   "name": "Bread Knife",
+   "brand": "Kyto",
+   "category": "kitchen",
+   "price": 44.99,
+   "stock": 16,
+   "description": "Long serrated blade that cuts crusty sourdough without squashing it.",
+   "attributes": {
+    "Blade": "23 cm"
+   }
+  },
+  {
+   "sku": "KT-1008",
+   "name": "Knife Block Set",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 128.99,
+   "stock": 26,
+   "description": "Five essential knives in a bamboo block.",
+   "attributes": {
+    "Pieces": "5 knives + block"
+   }
+  },
+  {
+   "sku": "KT-1009",
+   "name": "Whetstone 1000/6000",
+   "brand": "Kyto",
+   "category": "kitchen",
+   "price": 34.99,
+   "stock": 24,
+   "description": "Combination water stone to keep your knives razor sharp.",
+   "attributes": {
+    "Grits": "1000 / 6000"
+   }
+  },
+  {
+   "sku": "KT-1010",
+   "name": "End-Grain Cutting Board",
+   "brand": "Oakline",
+   "category": "kitchen",
+   "price": 68.99,
+   "stock": 4,
+   "description": "Oak end-grain board that is kind to knife edges.",
+   "attributes": {
+    "Size": "40 × 30 cm",
+    "Wood": "Oak"
+   }
+  },
+  {
+   "sku": "KT-1011",
+   "name": "Rice Cooker 1.8 L",
+   "brand": "Kyto",
+   "category": "kitchen",
+   "price": 78.99,
+   "stock": 2,
+   "description": "Fuzzy-logic cooker that makes fluffy rice every time and keeps it warm until dinner.",
+   "attributes": {
+    "Capacity": "10 cups",
+    "Programs": "White, brown, sushi, porridge"
+   }
+  },
+  {
+   "sku": "KT-1012",
+   "name": "Electric Pressure Cooker 6 L",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 98.99,
+   "stock": 0,
+   "description": "Multi-cooker that pressure cooks, slow cooks, steams and makes yoghurt.",
+   "attributes": {
+    "Volume": "6 L",
+    "Programs": "14"
+   }
+  },
+  {
+   "sku": "KT-1013",
+   "name": "Slow Cooker 3.5 L",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 48.99,
+   "stock": 0,
+   "description": "Set it in the morning, come home to a tender stew.",
+   "attributes": {
+    "Volume": "3.5 L"
+   }
+  },
+  {
+   "sku": "KT-1014",
+   "name": "Stand Mixer 5 L",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 298.99,
+   "stock": 11,
+   "description": "Planetary mixer with dough hook, whisk and beater for bread, cakes and meringues.",
+   "attributes": {
+    "Bowl": "5 L",
+    "Power": "1000 W"
+   }
+  },
+  {
+   "sku": "KT-1015",
+   "name": "Hand Blender Set",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 58.99,
+   "stock": 45,
+   "description": "Stick blender with chopper and whisk for soups and smoothies.",
+   "attributes": {
+    "Power": "800 W"
+   }
+  },
+  {
+   "sku": "KT-1016",
+   "name": "High-Speed Blender",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 148.99,
+   "stock": 0,
+   "description": "Powerful blender that crushes ice and makes silky nut butters.",
+   "attributes": {
+    "Power": "1500 W",
+    "Jug": "2 L"
+   }
+  },
+  {
+   "sku": "KT-1017",
+   "name": "Pasta Machine",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 68.99,
+   "stock": 53,
+   "description": "Hand-cranked roller with cutters for tagliatelle and fettuccine. Clamps to the worktop.",
+   "attributes": {
+    "Settings": "9 thicknesses",
+    "Material": "Chrome-plated steel"
+   }
+  },
+  {
+   "sku": "KT-1018",
+   "name": "Pizza Stone",
+   "brand": "Copperleaf",
+   "category": "kitchen",
+   "price": 38.99,
+   "stock": 58,
+   "description": "Cordierite stone for crisp, blistered pizza bases in a home oven.",
+   "attributes": {
+    "Size": "38 cm"
+   }
+  },
+  {
+   "sku": "KT-1019",
+   "name": "Sourdough Starter Kit",
+   "brand": "Oakline",
+   "category": "kitchen",
+   "price": 34.99,
+   "stock": 44,
+   "description": "Proofing basket, dough scraper, jar and a dried starter to begin baking bread.",
+   "attributes": {
+    "Includes": "Banneton, scraper, jar, starter"
+   }
+  },
+  {
+   "sku": "KT-1020",
+   "name": "Digital Kitchen Scale",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 24.99,
+   "stock": 58,
+   "description": "Weighs to the gram with a tare button.",
+   "attributes": {
+    "Capacity": "5 kg",
+    "Precision": "1 g"
+   }
+  },
+  {
+   "sku": "KT-1021",
+   "name": "Instant-Read Thermometer",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 28.99,
+   "stock": 51,
+   "description": "Probe thermometer that reads in two seconds for perfect roasts and caramel.",
+   "attributes": {
+    "Range": "-50 to 300 °C"
+   }
+  },
+  {
+   "sku": "KT-1022",
+   "name": "Mixing Bowl Set",
+   "brand": "Oakline",
+   "category": "kitchen",
+   "price": 38.99,
+   "stock": 49,
+   "description": "Nesting stainless bowls with non-slip bases.",
+   "attributes": {
+    "Pieces": "5"
+   }
+  },
+  {
+   "sku": "KT-1023",
+   "name": "Silicone Baking Mats (2)",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 18.95,
+   "stock": 10,
+   "description": "Reusable non-stick sheets that replace baking paper.",
+   "attributes": {
+    "Size": "40 × 30 cm"
+   }
+  },
+  {
+   "sku": "KT-1024",
+   "name": "Glass Food Storage Set",
+   "brand": "Oakline",
+   "category": "kitchen",
+   "price": 44.99,
+   "stock": 29,
+   "description": "Oven-safe glass containers with snap lids for meal prep and leftovers.",
+   "attributes": {
+    "Pieces": "10"
+   }
+  },
+  {
+   "sku": "KT-1025",
+   "name": "Beeswax Wraps",
+   "brand": "Oakline",
+   "category": "kitchen",
+   "price": 17.95,
+   "stock": 47,
+   "description": "Washable wraps that replace cling film.",
+   "attributes": {
+    "Pieces": "3"
+   }
+  },
+  {
+   "sku": "KT-1026",
+   "name": "Spice Rack with 20 Jars",
+   "brand": "Oakline",
+   "category": "kitchen",
+   "price": 48.99,
+   "stock": 9,
+   "description": "Wall or counter rack with labelled glass jars.",
+   "attributes": {
+    "Jars": "20"
+   }
+  },
+  {
+   "sku": "KT-1027",
+   "name": "Salad Spinner",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 24.99,
+   "stock": 3,
+   "description": "Dries washed greens in seconds.",
+   "attributes": {
+    "Volume": "5 L"
+   }
+  },
+  {
+   "sku": "KT-1028",
+   "name": "Mandoline Slicer",
+   "brand": "Kyto",
+   "category": "kitchen",
+   "price": 34.99,
+   "stock": 48,
+   "description": "Adjustable slicer for paper-thin vegetables, with a hand guard.",
+   "attributes": {
+    "Blades": "4"
+   }
+  },
+  {
+   "sku": "KT-1029",
+   "name": "Air Fryer 5.5 L",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 118.99,
+   "stock": 47,
+   "description": "Crispy chips and roast vegetables with a fraction of the oil.",
+   "attributes": {
+    "Volume": "5.5 L",
+    "Power": "1700 W"
+   }
+  },
+  {
+   "sku": "KT-1030",
+   "name": "Toaster, 2-Slice",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 44.99,
+   "stock": 42,
+   "description": "Wide slots for bagels and a defrost setting.",
+   "attributes": {
+    "Slots": "2"
+   }
+  },
+  {
+   "sku": "KT-1031",
+   "name": "Electric Kettle 1.7 L",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 38.99,
+   "stock": 39,
+   "description": "Rapid-boil kettle with a limescale filter.",
+   "attributes": {
+    "Volume": "1.7 L",
+    "Power": "3000 W"
+   }
+  },
+  {
+   "sku": "KT-1032",
+   "name": "Ice Cream Maker",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 68.99,
+   "stock": 27,
+   "description": "Freezer-bowl machine for homemade gelato and sorbet.",
+   "attributes": {
+    "Volume": "1.5 L"
+   }
+  },
+  {
+   "sku": "KT-1033",
+   "name": "Mortar and Pestle, Granite",
+   "brand": "Oakline",
+   "category": "kitchen",
+   "price": 34.99,
+   "stock": 27,
+   "description": "Heavy granite mortar for curry pastes, pesto and spices.",
+   "attributes": {
+    "Diameter": "15 cm"
+   }
+  },
+  {
+   "sku": "KT-1034",
+   "name": "Oven Gloves, Silicone",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 18.95,
+   "stock": 0,
+   "description": "Heat-resistant gloves with grip.",
+   "attributes": {
+    "Heat resistance": "230 °C"
+   }
+  },
+  {
+   "sku": "KT-1035",
+   "name": "Apron, Waxed Canvas",
+   "brand": "Oakline",
+   "category": "kitchen",
+   "price": 38.99,
+   "stock": 25,
+   "description": "Durable apron with pockets for chefs and bakers.",
+   "attributes": {
+    "Material": "Waxed cotton"
+   }
+  },
+  {
+   "sku": "KT-1036",
+   "name": "Dish Rack, Bamboo",
+   "brand": "Oakline",
+   "category": "kitchen",
+   "price": 28.99,
+   "stock": 43,
+   "description": "Folding drying rack for plates and glasses.",
+   "attributes": {
+    "Material": "Bamboo"
+   }
+  },
+  {
+   "sku": "KT-1037",
+   "name": "Kitchen Compost Caddy",
+   "brand": "Oakline",
+   "category": "kitchen",
+   "price": 24.99,
+   "stock": 59,
+   "description": "Lidded bin with a charcoal filter for food scraps.",
+   "attributes": {
+    "Volume": "5 L"
+   }
+  },
+  {
+   "sku": "KT-1038",
+   "name": "Vacuum Sealer",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 78.99,
+   "stock": 46,
+   "description": "Seals food in bags for sous vide and longer freezer life.",
+   "attributes": {
+    "Bag width": "30 cm"
+   }
+  },
+  {
+   "sku": "KT-1039",
+   "name": "Sous Vide Stick",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 98.99,
+   "stock": 13,
+   "description": "Precision cooker that holds water to a tenth of a degree for perfectly cooked meat and eggs.",
+   "attributes": {
+    "Power": "1100 W",
+    "Accuracy": "0.1 °C"
+   }
+  },
+  {
+   "sku": "KT-1040",
+   "name": "Waffle Iron",
+   "brand": "Moreno",
+   "category": "kitchen",
+   "price": 48.99,
+   "stock": 59,
+   "description": "Makes two thick Belgian waffles at once.",
+   "attributes": {
+    "Plates": "Non-stick"
+   }
+  },
+  {
+   "sku": "CT-1001",
+   "name": "Conical Burr Grinder",
+   "brand": "Brisa",
+   "category": "coffee-tea",
+   "price": 128.99,
+   "stock": 57,
+   "description": "Forty grind settings from espresso-fine to French-press-coarse, with steel conical burrs for an even grind and full aroma.",
+   "attributes": {
+    "Burrs": "40 mm conical steel",
+    "Settings": "40"
+   }
+  },
+  {
+   "sku": "CT-1002",
+   "name": "Hand Grinder, Travel",
+   "brand": "Brisa",
+   "category": "coffee-tea",
+   "price": 68.99,
+   "stock": 0,
+   "description": "Compact manual grinder with a ceramic burr for fresh beans anywhere.",
+   "attributes": {
+    "Burr": "Ceramic",
+    "Capacity": "25 g"
+   }
+  },
+  {
+   "sku": "CT-1003",
+   "name": "Pour-Over Kit",
+   "brand": "Brisa",
+   "category": "coffee-tea",
+   "price": 48.99,
+   "stock": 17,
+   "description": "Ceramic dripper, glass server and 100 filters for clean, bright filter brews.",
+   "attributes": {
+    "Includes": "Dripper, 600 ml server, filters"
+   }
+  },
+  {
+   "sku": "CT-1004",
+   "name": "Gooseneck Kettle, Temperature Control",
+   "brand": "Brisa",
+   "category": "coffee-tea",
+   "price": 88.99,
+   "stock": 16,
+   "description": "Electric kettle with a slim spout for precise pouring and a hold-temperature mode.",
+   "attributes": {
+    "Volume": "0.9 L",
+    "Range": "40–100 °C"
+   }
+  },
+  {
+   "sku": "CT-1005",
+   "name": "French Press 1 L",
+   "brand": "Copperleaf",
+   "category": "coffee-tea",
+   "price": 34.99,
+   "stock": 18,
+   "description": "Double-walled stainless press that keeps eight cups warm.",
+   "attributes": {
+    "Volume": "1 L"
+   }
+  },
+  {
+   "sku": "CT-1006",
+   "name": "Stovetop Espresso Maker",
+   "brand": "Copperleaf",
+   "category": "coffee-tea",
+   "price": 38.99,
+   "stock": 41,
+   "description": "Classic aluminium moka pot for rich Italian-style coffee on the hob.",
+   "attributes": {
+    "Cups": "6"
+   }
+  },
+  {
+   "sku": "CT-1007",
+   "name": "Espresso Machine, Dual Boiler",
+   "brand": "Moreno",
+   "category": "coffee-tea",
+   "price": 1198.99,
+   "stock": 0,
+   "description": "Prosumer machine with PID temperature control and a powerful steam wand for café-quality flat whites.",
+   "attributes": {
+    "Boilers": "2",
+    "Pressure": "9 bar"
+   }
+  },
+  {
+   "sku": "CT-1008",
+   "name": "Espresso Machine, Compact",
+   "brand": "Moreno",
+   "category": "coffee-tea",
+   "price": 348.99,
+   "stock": 24,
+   "description": "Small-kitchen espresso machine with a manual steam wand.",
+   "attributes": {
+    "Pressure": "15 bar",
+    "Heat-up": "30 s"
+   }
+  },
+  {
+   "sku": "CT-1009",
+   "name": "Milk Frother",
+   "brand": "Moreno",
+   "category": "coffee-tea",
+   "price": 48.99,
+   "stock": 22,
+   "description": "Heats and froths milk for cappuccinos and hot chocolate.",
+   "attributes": {
+    "Capacity": "300 ml"
+   }
+  },
+  {
+   "sku": "CT-1010",
+   "name": "Cold Brew Maker",
+   "brand": "Brisa",
+   "category": "coffee-tea",
+   "price": 28.99,
+   "stock": 0,
+   "description": "Brew smooth, low-acid coffee concentrate overnight in the fridge.",
+   "attributes": {
+    "Volume": "1.5 L"
+   }
+  },
+  {
+   "sku": "CT-1011",
+   "name": "AeroPress-Style Coffee Press",
+   "brand": "Brisa",
+   "category": "coffee-tea",
+   "price": 34.99,
+   "stock": 20,
+   "description": "Lightweight press for full-bodied coffee at home or on the road.",
+   "attributes": {
+    "Material": "BPA-free plastic"
+   }
+  },
+  {
+   "sku": "CT-1012",
+   "name": "Espresso Cups, Set of 4",
+   "brand": "Copperleaf",
+   "category": "coffee-tea",
+   "price": 28.99,
+   "stock": 33,
+   "description": "Thick-walled porcelain demitasse cups with saucers.",
+   "attributes": {
+    "Volume": "80 ml"
+   }
+  },
+  {
+   "sku": "CT-1013",
+   "name": "Latte Glasses, Double-Walled",
+   "brand": "Copperleaf",
+   "category": "coffee-tea",
+   "price": 24.99,
+   "stock": 12,
+   "description": "Insulated glasses that show off layered drinks.",
+   "attributes": {
+    "Pieces": "2",
+    "Volume": "350 ml"
+   }
+  },
+  {
+   "sku": "CT-1014",
+   "name": "Travel Mug, Leakproof",
+   "brand": "Arbor",
+   "category": "coffee-tea",
+   "price": 28.99,
+   "stock": 0,
+   "description": "Insulated mug that fits car cup holders and won't spill in your bag.",
+   "attributes": {
+    "Volume": "350 ml",
+    "Keeps hot": "6 h"
+   }
+  },
+  {
+   "sku": "CT-1015",
+   "name": "Single-Origin Ethiopia Beans 500 g",
+   "brand": "Halden Roasters",
+   "category": "coffee-tea",
+   "price": 17.95,
+   "stock": 49,
+   "description": "Washed Yirgacheffe with notes of bergamot and stone fruit, roasted for filter.",
+   "attributes": {
+    "Roast": "Light",
+    "Weight": "500 g"
+   }
+  },
+  {
+   "sku": "CT-1016",
+   "name": "Espresso Blend Beans 1 kg",
+   "brand": "Halden Roasters",
+   "category": "coffee-tea",
+   "price": 28.99,
+   "stock": 55,
+   "description": "Chocolatey Brazil and Colombia blend roasted for espresso and milk drinks.",
+   "attributes": {
+    "Roast": "Medium-dark",
+    "Weight": "1 kg"
+   }
+  },
+  {
+   "sku": "CT-1017",
+   "name": "Decaf Colombia Beans 500 g",
+   "brand": "Halden Roasters",
+   "category": "coffee-tea",
+   "price": 16.95,
+   "stock": 41,
+   "description": "Sugarcane-processed decaf that still tastes like caramel and red apple.",
+   "attributes": {
+    "Roast": "Medium"
+   }
+  },
+  {
+   "sku": "CT-1018",
+   "name": "Coffee Tasting Gift Box",
+   "brand": "Halden Roasters",
+   "category": "coffee-tea",
+   "price": 38.99,
+   "stock": 11,
+   "description": "Four small bags of single-origin beans with tasting cards: a present for anyone who loves their morning brew.",
+   "attributes": {
+    "Contents": "4 × 125 g"
+   }
+  },
+  {
+   "sku": "CT-1019",
+   "name": "Coffee Scale with Timer",
+   "brand": "Brisa",
+   "category": "coffee-tea",
+   "price": 38.99,
+   "stock": 33,
+   "description": "Scale that weighs to 0.1 g and times your brew.",
+   "attributes": {
+    "Precision": "0.1 g"
+   }
+  },
+  {
+   "sku": "CT-1020",
+   "name": "Knock Box",
+   "brand": "Brisa",
+   "category": "coffee-tea",
+   "price": 24.99,
+   "stock": 33,
+   "description": "Bin for spent espresso pucks.",
+   "attributes": {
+    "Material": "Stainless steel"
+   }
+  },
+  {
+   "sku": "CT-1021",
+   "name": "Espresso Tamper 58 mm",
+   "brand": "Brisa",
+   "category": "coffee-tea",
+   "price": 28.99,
+   "stock": 0,
+   "description": "Weighty stainless tamper for an even puck.",
+   "attributes": {
+    "Diameter": "58 mm"
+   }
+  },
+  {
+   "sku": "CT-1022",
+   "name": "Barista Milk Jug",
+   "brand": "Brisa",
+   "category": "coffee-tea",
+   "price": 18.95,
+   "stock": 13,
+   "description": "Stainless pitcher with a sharp spout for latte art.",
+   "attributes": {
+    "Volume": "600 ml"
+   }
+  },
+  {
+   "sku": "CT-1023",
+   "name": "Cast Iron Teapot",
+   "brand": "Kyto",
+   "category": "coffee-tea",
+   "price": 48.99,
+   "stock": 38,
+   "description": "Japanese tetsubin-style teapot with a stainless infuser.",
+   "attributes": {
+    "Volume": "0.8 L"
+   }
+  },
+  {
+   "sku": "CT-1024",
+   "name": "Glass Teapot with Infuser",
+   "brand": "Kyto",
+   "category": "coffee-tea",
+   "price": 28.99,
+   "stock": 26,
+   "description": "Heat-resistant glass so you can watch the leaves unfurl.",
+   "attributes": {
+    "Volume": "1 L"
+   }
+  },
+  {
+   "sku": "CT-1025",
+   "name": "Matcha Set",
+   "brand": "Kyto",
+   "category": "coffee-tea",
+   "price": 44.99,
+   "stock": 56,
+   "description": "Bamboo whisk, scoop, ceramic bowl and ceremonial-grade matcha.",
+   "attributes": {
+    "Includes": "Chasen, chashaku, chawan, 30 g matcha"
+   }
+  },
+  {
+   "sku": "CT-1026",
+   "name": "Chamomile Herbal Tea, Loose",
+   "brand": "Kyto",
+   "category": "coffee-tea",
+   "price": 8.95,
+   "stock": 16,
+   "description": "Whole chamomile flowers for a calming caffeine-free cup before bed.",
+   "attributes": {
+    "Weight": "100 g",
+    "Caffeine": "None"
+   }
+  },
+  {
+   "sku": "CT-1027",
+   "name": "Earl Grey Loose Leaf",
+   "brand": "Kyto",
+   "category": "coffee-tea",
+   "price": 10.95,
+   "stock": 32,
+   "description": "Black tea scented with natural bergamot oil.",
+   "attributes": {
+    "Weight": "100 g"
+   }
+  },
+  {
+   "sku": "CT-1028",
+   "name": "Green Tea Sencha",
+   "brand": "Kyto",
+   "category": "coffee-tea",
+   "price": 12.95,
+   "stock": 2,
+   "description": "Grassy, steamed Japanese green tea.",
+   "attributes": {
+    "Weight": "100 g"
+   }
+  },
+  {
+   "sku": "CT-1029",
+   "name": "Rooibos Vanilla",
+   "brand": "Kyto",
+   "category": "coffee-tea",
+   "price": 9.95,
+   "stock": 41,
+   "description": "Naturally sweet red-bush tea, caffeine free.",
+   "attributes": {
+    "Weight": "100 g"
+   }
+  },
+  {
+   "sku": "CT-1030",
+   "name": "Tea Advent Calendar",
+   "brand": "Kyto",
+   "category": "coffee-tea",
+   "price": 28.99,
+   "stock": 8,
+   "description": "Twenty-four different teas for the run-up to Christmas.",
+   "attributes": {
+    "Teas": "24"
+   }
+  },
+  {
+   "sku": "CT-1031",
+   "name": "Tea Sampler Gift Tin",
+   "brand": "Kyto",
+   "category": "coffee-tea",
+   "price": 33.99,
+   "stock": 0,
+   "description": "Eight loose-leaf teas in a gift tin, from smoky lapsang to jasmine pearls.",
+   "attributes": {
+    "Teas": "8"
+   }
+  },
+  {
+   "sku": "CT-1032",
+   "name": "Tea Infuser Mug",
+   "brand": "Kyto",
+   "category": "coffee-tea",
+   "price": 21.99,
+   "stock": 28,
+   "description": "Porcelain mug with a strainer and a lid that doubles as a coaster.",
+   "attributes": {
+    "Volume": "400 ml"
+   }
+  },
+  {
+   "sku": "CT-1033",
+   "name": "Chai Spice Mix",
+   "brand": "Kyto",
+   "category": "coffee-tea",
+   "price": 7.95,
+   "stock": 28,
+   "description": "Cardamom, cinnamon, ginger and clove to brew with black tea and milk.",
+   "attributes": {
+    "Weight": "80 g"
+   }
+  },
+  {
+   "sku": "CT-1034",
+   "name": "Coffee Canister, Airtight",
+   "brand": "Brisa",
+   "category": "coffee-tea",
+   "price": 24.99,
+   "stock": 56,
+   "description": "Vacuum-seal lid keeps beans fresh for longer.",
+   "attributes": {
+    "Capacity": "500 g beans"
+   }
+  },
+  {
+   "sku": "CT-1035",
+   "name": "Coffee Filter Papers (200)",
+   "brand": "Brisa",
+   "category": "coffee-tea",
+   "price": 6.95,
+   "stock": 28,
+   "description": "Unbleached cone filters for pour-over drippers.",
+   "attributes": {
+    "Size": "02"
+   }
+  },
+  {
+   "sku": "CT-1036",
+   "name": "Descaler for Coffee Machines",
+   "brand": "Moreno",
+   "category": "coffee-tea",
+   "price": 11.95,
+   "stock": 0,
+   "description": "Removes limescale to keep espresso machines working.",
+   "attributes": {
+    "Uses": "4"
+   }
+  },
+  {
+   "sku": "CT-1037",
+   "name": "Mug Set, Stoneware",
+   "brand": "Copperleaf",
+   "category": "coffee-tea",
+   "price": 38.99,
+   "stock": 0,
+   "description": "Four hand-glazed stoneware mugs.",
+   "attributes": {
+    "Volume": "350 ml",
+    "Pieces": "4"
+   }
+  },
+  {
+   "sku": "CT-1038",
+   "name": "Hot Chocolate Flakes",
+   "brand": "Halden Roasters",
+   "category": "coffee-tea",
+   "price": 11.95,
+   "stock": 42,
+   "description": "Shaved 70% dark chocolate to melt into hot milk.",
+   "attributes": {
+    "Weight": "250 g"
+   }
+  },
+  {
+   "sku": "CT-1039",
+   "name": "Siphon Coffee Maker",
+   "brand": "Brisa",
+   "category": "coffee-tea",
+   "price": 88.99,
+   "stock": 10,
+   "description": "Vacuum brewer that makes coffee a theatrical show.",
+   "attributes": {
+    "Volume": "500 ml"
+   }
+  },
+  {
+   "sku": "CT-1040",
+   "name": "Iced Tea Pitcher",
+   "brand": "Kyto",
+   "category": "coffee-tea",
+   "price": 24.99,
+   "stock": 26,
+   "description": "Glass jug with a long infuser for cold-brew tea.",
+   "attributes": {
+    "Volume": "1.5 L"
+   }
+  },
+  {
+   "sku": "EL-1001",
+   "name": "Noise-Cancelling Headphones NC700",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 278.99,
+   "stock": 42,
+   "description": "Over-ear headphones with adaptive active noise cancellation that silences engine drone, office chatter and train rumble. 30-hour battery and a folding case.",
+   "attributes": {
+    "Model": "NC700",
+    "Battery": "30 h",
+    "ANC": "Adaptive",
+    "Weight": "250 g"
+   }
+  },
+  {
+   "sku": "EL-1002",
+   "name": "True Wireless Earbuds",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 128.99,
+   "stock": 25,
+   "description": "Compact earbuds with a charging case, IPX4 sweat resistance and transparency mode.",
+   "attributes": {
+    "Battery": "8 h + 24 h case",
+    "Water rating": "IPX4"
+   }
+  },
+  {
+   "sku": "EL-1003",
+   "name": "Sports Earbuds, Ear Hooks",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 88.99,
+   "stock": 10,
+   "description": "Secure-fit earbuds for running and gym sessions.",
+   "attributes": {
+    "Water rating": "IPX7"
+   }
+  },
+  {
+   "sku": "EL-1004",
+   "name": "Bluetooth Speaker, Waterproof",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 78.99,
+   "stock": 1,
+   "description": "Rugged speaker that floats, with 12-hour playback for the beach and shower.",
+   "attributes": {
+    "Water rating": "IP67",
+    "Battery": "12 h"
+   }
+  },
+  {
+   "sku": "EL-1005",
+   "name": "Smart Speaker with Voice Assistant",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 98.99,
+   "stock": 13,
+   "description": "Room-filling sound with built-in voice control for music, timers and the smart home.",
+   "attributes": {
+    "Drivers": "2"
+   }
+  },
+  {
+   "sku": "EL-1006",
+   "name": "Soundbar 2.1",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 248.99,
+   "stock": 34,
+   "description": "Slim soundbar with a wireless subwoofer for clearer dialogue on TV.",
+   "attributes": {
+    "Channels": "2.1",
+    "Connectivity": "HDMI eARC, Bluetooth"
+   }
+  },
+  {
+   "sku": "EL-1007",
+   "name": "E-Reader 7\"",
+   "brand": "Lumen",
+   "category": "electronics",
+   "price": 148.99,
+   "stock": 0,
+   "description": "Glare-free paper-like screen with adjustable warm light, weeks of battery and storage for thousands of books.",
+   "attributes": {
+    "Screen": "7\" e-ink, 300 ppi",
+    "Battery": "6 weeks",
+    "Waterproof": "IPX8"
+   }
+  },
+  {
+   "sku": "EL-1008",
+   "name": "Tablet 11\"",
+   "brand": "Lumen",
+   "category": "electronics",
+   "price": 448.99,
+   "stock": 7,
+   "description": "Bright 11-inch tablet for streaming, drawing and video calls.",
+   "attributes": {
+    "Screen": "11\" 120 Hz",
+    "Storage": "128 GB"
+   }
+  },
+  {
+   "sku": "EL-1009",
+   "name": "Laptop 14\" Ultrabook",
+   "brand": "Lumen",
+   "category": "electronics",
+   "price": 1098.99,
+   "stock": 30,
+   "description": "Light aluminium laptop with an all-day battery and a sharp 2.8K display.",
+   "attributes": {
+    "Weight": "1.2 kg",
+    "RAM": "16 GB",
+    "Storage": "1 TB SSD"
+   }
+  },
+  {
+   "sku": "EL-1010",
+   "name": "Mechanical Keyboard",
+   "brand": "Pebble",
+   "category": "electronics",
+   "price": 118.99,
+   "stock": 39,
+   "description": "Hot-swappable keyboard with tactile switches and white backlight.",
+   "attributes": {
+    "Layout": "75%",
+    "Switches": "Tactile"
+   }
+  },
+  {
+   "sku": "EL-1011",
+   "name": "Wireless Mouse, Ergonomic",
+   "brand": "Pebble",
+   "category": "electronics",
+   "price": 58.99,
+   "stock": 46,
+   "description": "Vertical mouse that keeps your wrist in a handshake position to ease strain.",
+   "attributes": {
+    "Battery": "70 days",
+    "DPI": "4000"
+   }
+  },
+  {
+   "sku": "EL-1012",
+   "name": "4K Monitor 27\"",
+   "brand": "Lumen",
+   "category": "electronics",
+   "price": 348.99,
+   "stock": 53,
+   "description": "27-inch 4K IPS display with USB-C power delivery for a one-cable desk.",
+   "attributes": {
+    "Resolution": "3840 × 2160",
+    "USB-C": "65 W"
+   }
+  },
+  {
+   "sku": "EL-1013",
+   "name": "Webcam 1080p",
+   "brand": "Pebble",
+   "category": "electronics",
+   "price": 68.99,
+   "stock": 1,
+   "description": "Full-HD webcam with dual microphones and a privacy shutter.",
+   "attributes": {
+    "Resolution": "1080p 30 fps"
+   }
+  },
+  {
+   "sku": "EL-1014",
+   "name": "USB Microphone",
+   "brand": "Pebble",
+   "category": "electronics",
+   "price": 98.99,
+   "stock": 6,
+   "description": "Cardioid condenser mic for podcasts and clear video calls.",
+   "attributes": {
+    "Pattern": "Cardioid"
+   }
+  },
+  {
+   "sku": "EL-1015",
+   "name": "USB-C Hub 7-in-1",
+   "brand": "Pebble",
+   "category": "electronics",
+   "price": 48.99,
+   "stock": 0,
+   "description": "Adds HDMI, card readers and USB ports to a laptop.",
+   "attributes": {
+    "Ports": "HDMI, 3× USB-A, SD, microSD, USB-C PD"
+   }
+  },
+  {
+   "sku": "EL-1016",
+   "name": "USB-C Charger 65 W GaN",
+   "brand": "Pebble",
+   "category": "electronics",
+   "price": 44.99,
+   "stock": 0,
+   "description": "Small charger that powers a laptop and a phone at once.",
+   "attributes": {
+    "Output": "65 W",
+    "Ports": "2× USB-C, 1× USB-A"
+   }
+  },
+  {
+   "sku": "EL-1017",
+   "name": "Wireless Charging Pad",
+   "brand": "Pebble",
+   "category": "electronics",
+   "price": 28.99,
+   "stock": 26,
+   "description": "Qi charger for phones and earbuds.",
+   "attributes": {
+    "Output": "15 W"
+   }
+  },
+  {
+   "sku": "EL-1018",
+   "name": "Braided USB-C Cable 2 m",
+   "brand": "Pebble",
+   "category": "electronics",
+   "price": 14.95,
+   "stock": 39,
+   "description": "Tough braided cable for fast charging and data.",
+   "attributes": {
+    "Length": "2 m",
+    "Power": "100 W"
+   }
+  },
+  {
+   "sku": "EL-1019",
+   "name": "Portable SSD 1 TB",
+   "brand": "Lumen",
+   "category": "electronics",
+   "price": 98.99,
+   "stock": 4,
+   "description": "Pocket-sized drive with fast transfers for photos and backups.",
+   "attributes": {
+    "Capacity": "1 TB",
+    "Speed": "1050 MB/s"
+   }
+  },
+  {
+   "sku": "EL-1020",
+   "name": "Smartwatch, Fitness",
+   "brand": "Kestrel",
+   "category": "electronics",
+   "price": 198.99,
+   "stock": 59,
+   "description": "Tracks heart rate, sleep and workouts with built-in GPS.",
+   "attributes": {
+    "Battery": "7 days",
+    "GPS": "Yes"
+   }
+  },
+  {
+   "sku": "EL-1021",
+   "name": "Fitness Tracker Band",
+   "brand": "Kestrel",
+   "category": "electronics",
+   "price": 58.99,
+   "stock": 49,
+   "description": "Slim band that counts steps and tracks sleep.",
+   "attributes": {
+    "Battery": "14 days"
+   }
+  },
+  {
+   "sku": "EL-1022",
+   "name": "Action Camera 4K",
+   "brand": "Kestrel",
+   "category": "electronics",
+   "price": 248.99,
+   "stock": 55,
+   "description": "Waterproof camera with stabilisation for biking, skiing and diving.",
+   "attributes": {
+    "Video": "4K 60 fps",
+    "Waterproof": "10 m"
+   }
+  },
+  {
+   "sku": "EL-1023",
+   "name": "Mirrorless Camera Kit",
+   "brand": "Lumen",
+   "category": "electronics",
+   "price": 898.99,
+   "stock": 3,
+   "description": "Interchangeable-lens camera with a 15–45 mm zoom for travel photography.",
+   "attributes": {
+    "Sensor": "24 MP APS-C"
+   }
+  },
+  {
+   "sku": "EL-1024",
+   "name": "Instant Camera",
+   "brand": "Lumen",
+   "category": "electronics",
+   "price": 88.99,
+   "stock": 11,
+   "description": "Prints credit-card-sized photos in seconds.",
+   "attributes": {
+    "Film": "Instant mini"
+   }
+  },
+  {
+   "sku": "EL-1025",
+   "name": "Drone with 4K Camera",
+   "brand": "Kestrel",
+   "category": "electronics",
+   "price": 498.99,
+   "stock": 29,
+   "description": "Foldable drone under 250 g with 30 minutes of flight time.",
+   "attributes": {
+    "Weight": "249 g",
+    "Flight time": "30 min"
+   }
+  },
+  {
+   "sku": "EL-1026",
+   "name": "Smart Plug (2-pack)",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 24.99,
+   "stock": 26,
+   "description": "Turn lamps and appliances on from your phone or on a schedule.",
+   "attributes": {
+    "Max load": "3680 W"
+   }
+  },
+  {
+   "sku": "EL-1027",
+   "name": "Smart Bulb E27, Colour",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 18.95,
+   "stock": 55,
+   "description": "Dimmable colour bulb you control with an app or voice.",
+   "attributes": {
+    "Output": "806 lm"
+   }
+  },
+  {
+   "sku": "EL-1028",
+   "name": "Video Doorbell",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 128.99,
+   "stock": 28,
+   "description": "See and talk to visitors from your phone.",
+   "attributes": {
+    "Resolution": "1536p"
+   }
+  },
+  {
+   "sku": "EL-1029",
+   "name": "Indoor Security Camera",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 48.99,
+   "stock": 41,
+   "description": "Pan-and-tilt camera with night vision and motion alerts.",
+   "attributes": {
+    "Resolution": "2K"
+   }
+  },
+  {
+   "sku": "EL-1030",
+   "name": "Robot Vacuum",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 298.99,
+   "stock": 17,
+   "description": "Maps your home and cleans on a schedule, then returns to its dock.",
+   "attributes": {
+    "Suction": "4000 Pa",
+    "Runtime": "150 min"
+   }
+  },
+  {
+   "sku": "EL-1031",
+   "name": "White Noise Machine",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 38.99,
+   "stock": 14,
+   "description": "Soothing fan, rain and ocean sounds to mask snoring and street noise so you drift off.",
+   "attributes": {
+    "Sounds": "20"
+   }
+  },
+  {
+   "sku": "EL-1032",
+   "name": "Sunrise Alarm Clock",
+   "brand": "Lumen",
+   "category": "electronics",
+   "price": 78.99,
+   "stock": 25,
+   "description": "Gradually brightens like dawn to wake you gently, with FM radio.",
+   "attributes": {
+    "Light": "Up to 300 lux"
+   }
+  },
+  {
+   "sku": "EL-1033",
+   "name": "Digital Photo Frame",
+   "brand": "Lumen",
+   "category": "electronics",
+   "price": 98.99,
+   "stock": 46,
+   "description": "Wi-Fi frame that family can send pictures to from anywhere.",
+   "attributes": {
+    "Screen": "10\""
+   }
+  },
+  {
+   "sku": "EL-1034",
+   "name": "Turntable, Belt Drive",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 198.99,
+   "stock": 35,
+   "description": "Record player with a built-in preamp and USB output.",
+   "attributes": {
+    "Speeds": "33⅓, 45"
+   }
+  },
+  {
+   "sku": "EL-1035",
+   "name": "Bookshelf Speakers",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 178.99,
+   "stock": 20,
+   "description": "Pair of passive speakers with warm, detailed sound.",
+   "attributes": {
+    "Power": "50 W"
+   }
+  },
+  {
+   "sku": "EL-1036",
+   "name": "Kids' Headphones, Volume-Limited",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 28.99,
+   "stock": 42,
+   "description": "Colourful headphones capped at 85 dB to protect young ears.",
+   "attributes": {
+    "Limit": "85 dB"
+   }
+  },
+  {
+   "sku": "EL-1037",
+   "name": "Gaming Controller, Wireless",
+   "brand": "Pebble",
+   "category": "electronics",
+   "price": 58.99,
+   "stock": 0,
+   "description": "Controller for PC and mobile with rechargeable battery.",
+   "attributes": {
+    "Battery": "20 h"
+   }
+  },
+  {
+   "sku": "EL-1038",
+   "name": "Mesh Wi-Fi System (3-pack)",
+   "brand": "Nimbus",
+   "category": "electronics",
+   "price": 248.99,
+   "stock": 24,
+   "description": "Whole-home Wi-Fi with no dead zones.",
+   "attributes": {
+    "Standard": "Wi-Fi 6",
+    "Coverage": "450 m²"
+   }
+  },
+  {
+   "sku": "EL-1039",
+   "name": "Portable Projector",
+   "brand": "Lumen",
+   "category": "electronics",
+   "price": 298.99,
+   "stock": 0,
+   "description": "Battery-powered projector for movie nights in the garden.",
+   "attributes": {
+    "Brightness": "500 ANSI lm",
+    "Battery": "2.5 h"
+   }
+  },
+  {
+   "sku": "EL-1040",
+   "name": "Label Printer",
+   "brand": "Pebble",
+   "category": "electronics",
+   "price": 58.99,
+   "stock": 13,
+   "description": "Prints labels from your phone for jars, cables and files.",
+   "attributes": {
+    "Connection": "Bluetooth"
+   }
+  },
+  {
+   "sku": "HF-1001",
+   "name": "Compact Two-Seater Loveseat",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 548.99,
+   "stock": 7,
+   "description": "A small-footprint settee with a slim frame and deep cushions, sized for studio flats and reading corners.",
+   "attributes": {
+    "Width": "142 cm",
+    "Depth": "80 cm",
+    "Upholstery": "Bouclé"
+   }
+  },
+  {
+   "sku": "HF-1002",
+   "name": "Three-Seat Sofa, Linen",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 1148.99,
+   "stock": 36,
+   "description": "Generous three-seater with feather-wrapped cushions and removable linen covers.",
+   "attributes": {
+    "Width": "220 cm",
+    "Upholstery": "Washed linen"
+   }
+  },
+  {
+   "sku": "HF-1003",
+   "name": "Corner Sofa with Chaise",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 1498.99,
+   "stock": 39,
+   "description": "L-shaped modular sofa with a chaise for stretching out on movie nights.",
+   "attributes": {
+    "Width": "270 cm"
+   }
+  },
+  {
+   "sku": "HF-1004",
+   "name": "Sofa Bed, Click-Clack",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 398.99,
+   "stock": 18,
+   "description": "Converts from seat to double bed in seconds for guests.",
+   "attributes": {
+    "Bed size": "120 × 190 cm"
+   }
+  },
+  {
+   "sku": "HF-1005",
+   "name": "Armchair, Wingback",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 448.99,
+   "stock": 11,
+   "description": "High-backed armchair in wool for reading by the fire.",
+   "attributes": {
+    "Upholstery": "Wool blend"
+   }
+  },
+  {
+   "sku": "HF-1006",
+   "name": "Bean Bag, XL",
+   "brand": "Pebble",
+   "category": "home-furniture",
+   "price": 128.99,
+   "stock": 3,
+   "description": "Huge, washable bean bag that moulds to you.",
+   "attributes": {
+    "Fill": "EPS beads"
+   }
+  },
+  {
+   "sku": "HF-1007",
+   "name": "Solid Oak Dining Table",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 898.99,
+   "stock": 31,
+   "description": "Extendable table that seats six, or eight with the leaf.",
+   "attributes": {
+    "Size": "180–240 × 90 cm",
+    "Wood": "Solid oak"
+   }
+  },
+  {
+   "sku": "HF-1008",
+   "name": "Dining Chairs, Set of 2",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 248.99,
+   "stock": 57,
+   "description": "Curved plywood chairs with a comfortable seat.",
+   "attributes": {
+    "Material": "Oak veneer"
+   }
+  },
+  {
+   "sku": "HF-1009",
+   "name": "Bar Stools, Set of 2",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 178.99,
+   "stock": 13,
+   "description": "Counter-height stools with footrests.",
+   "attributes": {
+    "Seat height": "65 cm"
+   }
+  },
+  {
+   "sku": "HF-1010",
+   "name": "Coffee Table, Round",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 228.99,
+   "stock": 15,
+   "description": "Oak coffee table with a lower shelf for magazines.",
+   "attributes": {
+    "Diameter": "80 cm"
+   }
+  },
+  {
+   "sku": "HF-1011",
+   "name": "Side Table, Metal",
+   "brand": "Pebble",
+   "category": "home-furniture",
+   "price": 68.99,
+   "stock": 5,
+   "description": "Small powder-coated table for a lamp and a cup.",
+   "attributes": {
+    "Height": "50 cm"
+   }
+  },
+  {
+   "sku": "HF-1012",
+   "name": "Bookcase, 5 Shelves",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 198.99,
+   "stock": 21,
+   "description": "Tall bookcase with adjustable shelves.",
+   "attributes": {
+    "Size": "80 × 30 × 190 cm"
+   }
+  },
+  {
+   "sku": "HF-1013",
+   "name": "Wall Shelves, Floating (3)",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 58.99,
+   "stock": 33,
+   "description": "Hidden-bracket shelves for plants and photos.",
+   "attributes": {
+    "Length": "60 cm"
+   }
+  },
+  {
+   "sku": "HF-1014",
+   "name": "TV Bench",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 248.99,
+   "stock": 59,
+   "description": "Low media unit with cable management and sliding doors.",
+   "attributes": {
+    "Width": "160 cm"
+   }
+  },
+  {
+   "sku": "HF-1015",
+   "name": "Shoe Cabinet",
+   "brand": "Pebble",
+   "category": "home-furniture",
+   "price": 128.99,
+   "stock": 27,
+   "description": "Slim cabinet with tip-out compartments for 12 pairs.",
+   "attributes": {
+    "Depth": "24 cm"
+   }
+  },
+  {
+   "sku": "HF-1016",
+   "name": "Coat Rack, Freestanding",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 78.99,
+   "stock": 24,
+   "description": "Wooden coat stand with eight hooks.",
+   "attributes": {
+    "Height": "175 cm"
+   }
+  },
+  {
+   "sku": "HF-1017",
+   "name": "Storage Ottoman",
+   "brand": "Pebble",
+   "category": "home-furniture",
+   "price": 88.99,
+   "stock": 2,
+   "description": "Upholstered footstool that hides blankets inside.",
+   "attributes": {
+    "Size": "80 × 40 cm"
+   }
+  },
+  {
+   "sku": "HF-1018",
+   "name": "Room Divider Screen",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 148.99,
+   "stock": 1,
+   "description": "Folding rattan screen to zone a studio apartment.",
+   "attributes": {
+    "Panels": "4"
+   }
+  },
+  {
+   "sku": "HF-1019",
+   "name": "Wall Mirror, Round",
+   "brand": "Pebble",
+   "category": "home-furniture",
+   "price": 98.99,
+   "stock": 20,
+   "description": "80 cm mirror with a thin brass frame that brightens small rooms.",
+   "attributes": {
+    "Diameter": "80 cm"
+   }
+  },
+  {
+   "sku": "HF-1020",
+   "name": "Floor Lamp, Arc",
+   "brand": "Lumen",
+   "category": "home-furniture",
+   "price": 178.99,
+   "stock": 48,
+   "description": "Arching lamp that reaches over the sofa.",
+   "attributes": {
+    "Height": "200 cm",
+    "Bulb": "E27"
+   }
+  },
+  {
+   "sku": "HF-1021",
+   "name": "Table Lamp, Ceramic",
+   "brand": "Lumen",
+   "category": "home-furniture",
+   "price": 68.99,
+   "stock": 26,
+   "description": "Glazed ceramic base with a linen shade.",
+   "attributes": {
+    "Height": "45 cm"
+   }
+  },
+  {
+   "sku": "HF-1022",
+   "name": "Pendant Light, Rattan",
+   "brand": "Lumen",
+   "category": "home-furniture",
+   "price": 88.99,
+   "stock": 36,
+   "description": "Woven shade that casts warm patterned light.",
+   "attributes": {
+    "Diameter": "45 cm"
+   }
+  },
+  {
+   "sku": "HF-1023",
+   "name": "Blackout Curtains (pair)",
+   "brand": "Pebble",
+   "category": "home-furniture",
+   "price": 68.99,
+   "stock": 0,
+   "description": "Thermal-lined curtains that block streetlights and early sunrise for deeper rest.",
+   "attributes": {
+    "Size": "140 × 250 cm",
+    "Light block": "99%"
+   }
+  },
+  {
+   "sku": "HF-1024",
+   "name": "Sheer Curtains (pair)",
+   "brand": "Pebble",
+   "category": "home-furniture",
+   "price": 38.99,
+   "stock": 0,
+   "description": "Light-filtering voile panels.",
+   "attributes": {
+    "Size": "140 × 250 cm"
+   }
+  },
+  {
+   "sku": "HF-1025",
+   "name": "Wool Rug 160×230",
+   "brand": "Halden",
+   "category": "home-furniture",
+   "price": 298.99,
+   "stock": 0,
+   "description": "Hand-tufted wool rug that softens footsteps.",
+   "attributes": {
+    "Size": "160 × 230 cm"
+   }
+  },
+  {
+   "sku": "HF-1026",
+   "name": "Washable Runner",
+   "brand": "Pebble",
+   "category": "home-furniture",
+   "price": 78.99,
+   "stock": 59,
+   "description": "Machine-washable hallway runner.",
+   "attributes": {
+    "Size": "80 × 200 cm"
+   }
+  },
+  {
+   "sku": "HF-1027",
+   "name": "Throw Blanket, Chunky Knit",
+   "brand": "Halden",
+   "category": "home-furniture",
+   "price": 58.99,
+   "stock": 34,
+   "description": "Soft chunky throw for the sofa.",
+   "attributes": {
+    "Size": "130 × 170 cm"
+   }
+  },
+  {
+   "sku": "HF-1028",
+   "name": "Cushion Covers, Linen (2)",
+   "brand": "Halden",
+   "category": "home-furniture",
+   "price": 28.99,
+   "stock": 48,
+   "description": "Stonewashed linen covers.",
+   "attributes": {
+    "Size": "50 × 50 cm"
+   }
+  },
+  {
+   "sku": "HF-1029",
+   "name": "Scented Candle, Cedar",
+   "brand": "Halden",
+   "category": "home-furniture",
+   "price": 24.99,
+   "stock": 57,
+   "description": "Soy wax candle with cedar and smoke notes.",
+   "attributes": {
+    "Burn time": "50 h"
+   }
+  },
+  {
+   "sku": "HF-1030",
+   "name": "Ceramic Vase, Large",
+   "brand": "Copperleaf",
+   "category": "home-furniture",
+   "price": 44.99,
+   "stock": 4,
+   "description": "Matte stoneware vase for dried flowers.",
+   "attributes": {
+    "Height": "35 cm"
+   }
+  },
+  {
+   "sku": "HF-1031",
+   "name": "Indoor Plant Pot Set",
+   "brand": "Copperleaf",
+   "category": "home-furniture",
+   "price": 38.99,
+   "stock": 2,
+   "description": "Three glazed pots with saucers.",
+   "attributes": {
+    "Sizes": "12, 15, 18 cm"
+   }
+  },
+  {
+   "sku": "HF-1032",
+   "name": "Picture Frames, Gallery Set",
+   "brand": "Pebble",
+   "category": "home-furniture",
+   "price": 48.99,
+   "stock": 30,
+   "description": "Seven black frames for a gallery wall.",
+   "attributes": {
+    "Pieces": "7"
+   }
+  },
+  {
+   "sku": "HF-1033",
+   "name": "Wall Clock, Silent",
+   "brand": "Pebble",
+   "category": "home-furniture",
+   "price": 34.99,
+   "stock": 18,
+   "description": "Non-ticking clock for bedrooms.",
+   "attributes": {
+    "Diameter": "30 cm"
+   }
+  },
+  {
+   "sku": "HF-1034",
+   "name": "Laundry Basket, Seagrass",
+   "brand": "Pebble",
+   "category": "home-furniture",
+   "price": 34.99,
+   "stock": 4,
+   "description": "Woven basket with a cotton liner.",
+   "attributes": {
+    "Volume": "60 L"
+   }
+  },
+  {
+   "sku": "HF-1035",
+   "name": "Storage Boxes, Fabric (4)",
+   "brand": "Pebble",
+   "category": "home-furniture",
+   "price": 28.99,
+   "stock": 55,
+   "description": "Fold-flat cubes for shelving units.",
+   "attributes": {
+    "Size": "33 cm cube"
+   }
+  },
+  {
+   "sku": "HF-1036",
+   "name": "Kids' Bunk Bed",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 448.99,
+   "stock": 28,
+   "description": "Solid pine bunk bed with a safety rail and ladder.",
+   "attributes": {
+    "Mattress": "90 × 200 cm"
+   }
+  },
+  {
+   "sku": "HF-1037",
+   "name": "Nightstand with Drawer",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 98.99,
+   "stock": 6,
+   "description": "Compact bedside table.",
+   "attributes": {
+    "Size": "40 × 35 × 50 cm"
+   }
+  },
+  {
+   "sku": "HF-1038",
+   "name": "Wardrobe, 2 Doors",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 398.99,
+   "stock": 48,
+   "description": "Hanging rail, shelves and a mirror inside.",
+   "attributes": {
+    "Size": "100 × 58 × 200 cm"
+   }
+  },
+  {
+   "sku": "HF-1039",
+   "name": "Chest of Drawers",
+   "brand": "Oakline",
+   "category": "home-furniture",
+   "price": 278.99,
+   "stock": 57,
+   "description": "Six drawers with soft-close runners.",
+   "attributes": {
+    "Drawers": "6"
+   }
+  },
+  {
+   "sku": "HF-1040",
+   "name": "Folding Guest Bed",
+   "brand": "Pebble",
+   "category": "home-furniture",
+   "price": 188.99,
+   "stock": 30,
+   "description": "Rollaway bed with a 10 cm foam mattress.",
+   "attributes": {
+    "Size": "90 × 190 cm"
+   }
+  },
+  {
+   "sku": "BB-1001",
+   "name": "Weighted Blanket 7 kg",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 128.99,
+   "stock": 0,
+   "description": "Glass-bead blanket that gives gentle, even pressure so you settle faster and stay asleep.",
+   "attributes": {
+    "Weight": "7 kg",
+    "Size": "150 × 200 cm"
+   }
+  },
+  {
+   "sku": "BB-1002",
+   "name": "Silk Sleep Mask",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 24.99,
+   "stock": 20,
+   "description": "Mulberry silk eye mask that blocks light without pressing on your eyes.",
+   "attributes": {
+    "Material": "Mulberry silk"
+   }
+  },
+  {
+   "sku": "BB-1003",
+   "name": "Memory Foam Pillow",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 58.99,
+   "stock": 53,
+   "description": "Contoured pillow that supports the neck for side and back sleepers.",
+   "attributes": {
+    "Size": "60 × 40 cm"
+   }
+  },
+  {
+   "sku": "BB-1004",
+   "name": "Down Duvet, All-Season",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 198.99,
+   "stock": 19,
+   "description": "Two duvets that button together for winter and separate for summer.",
+   "attributes": {
+    "Size": "220 × 220 cm",
+    "Fill": "90% down"
+   }
+  },
+  {
+   "sku": "BB-1005",
+   "name": "Cotton Percale Bedding Set",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 88.99,
+   "stock": 22,
+   "description": "Crisp, cool organic cotton duvet cover and pillowcases.",
+   "attributes": {
+    "Thread count": "200",
+    "Material": "Organic cotton"
+   }
+  },
+  {
+   "sku": "BB-1006",
+   "name": "Linen Bedding Set",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 148.99,
+   "stock": 17,
+   "description": "Stonewashed linen that gets softer with every wash and stays cool in summer.",
+   "attributes": {
+    "Material": "100% linen"
+   }
+  },
+  {
+   "sku": "BB-1007",
+   "name": "Flannel Sheets",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 68.99,
+   "stock": 50,
+   "description": "Brushed cotton sheets for cold winter nights.",
+   "attributes": {
+    "Material": "Cotton flannel"
+   }
+  },
+  {
+   "sku": "BB-1008",
+   "name": "Mattress Topper, Memory Foam",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 128.99,
+   "stock": 44,
+   "description": "Adds a soft, pressure-relieving layer to a firm mattress.",
+   "attributes": {
+    "Thickness": "7 cm"
+   }
+  },
+  {
+   "sku": "BB-1009",
+   "name": "Pocket Spring Mattress",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 698.99,
+   "stock": 31,
+   "description": "Medium-firm mattress with individually wrapped springs.",
+   "attributes": {
+    "Size": "160 × 200 cm",
+    "Firmness": "Medium-firm"
+   }
+  },
+  {
+   "sku": "BB-1010",
+   "name": "Waterproof Mattress Protector",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 34.99,
+   "stock": 16,
+   "description": "Breathable, quiet protector against spills.",
+   "attributes": {
+    "Size": "160 × 200 cm"
+   }
+  },
+  {
+   "sku": "BB-1011",
+   "name": "Electric Blanket",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 78.99,
+   "stock": 9,
+   "description": "Under-blanket with dual controls and auto shut-off.",
+   "attributes": {
+    "Settings": "9"
+   }
+  },
+  {
+   "sku": "BB-1012",
+   "name": "Hot Water Bottle with Knit Cover",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 18.95,
+   "stock": 0,
+   "description": "Classic rubber bottle for cosy evenings.",
+   "attributes": {
+    "Volume": "2 L"
+   }
+  },
+  {
+   "sku": "BB-1013",
+   "name": "Bath Towel Set, Turkish Cotton",
+   "brand": "Tidewater",
+   "category": "bath-bedding",
+   "price": 68.99,
+   "stock": 0,
+   "description": "Plush, absorbent towels in a set of four.",
+   "attributes": {
+    "GSM": "600",
+    "Pieces": "4"
+   }
+  },
+  {
+   "sku": "BB-1014",
+   "name": "Waffle Bathrobe",
+   "brand": "Tidewater",
+   "category": "bath-bedding",
+   "price": 58.99,
+   "stock": 28,
+   "description": "Lightweight cotton robe that dries quickly.",
+   "attributes": {
+    "Material": "Waffle cotton"
+   }
+  },
+  {
+   "sku": "BB-1015",
+   "name": "Bath Mat, Diatomite",
+   "brand": "Tidewater",
+   "category": "bath-bedding",
+   "price": 34.99,
+   "stock": 18,
+   "description": "Stone mat that absorbs water in seconds.",
+   "attributes": {
+    "Size": "60 × 39 cm"
+   }
+  },
+  {
+   "sku": "BB-1016",
+   "name": "Shower Head, Rainfall",
+   "brand": "Tidewater",
+   "category": "bath-bedding",
+   "price": 78.99,
+   "stock": 54,
+   "description": "Wide rainfall head with a water-saving setting.",
+   "attributes": {
+    "Diameter": "25 cm"
+   }
+  },
+  {
+   "sku": "BB-1017",
+   "name": "Bath Salts, Lavender",
+   "brand": "Tidewater",
+   "category": "bath-bedding",
+   "price": 14.95,
+   "stock": 1,
+   "description": "Magnesium flakes with lavender oil for a relaxing soak.",
+   "attributes": {
+    "Weight": "1 kg"
+   }
+  },
+  {
+   "sku": "BB-1018",
+   "name": "Aromatherapy Diffuser",
+   "brand": "Tidewater",
+   "category": "bath-bedding",
+   "price": 38.99,
+   "stock": 42,
+   "description": "Ultrasonic diffuser with soft light and auto-off.",
+   "attributes": {
+    "Runtime": "8 h"
+   }
+  },
+  {
+   "sku": "BB-1019",
+   "name": "Essential Oil Set",
+   "brand": "Tidewater",
+   "category": "bath-bedding",
+   "price": 28.99,
+   "stock": 54,
+   "description": "Six oils including lavender, eucalyptus and peppermint.",
+   "attributes": {
+    "Bottles": "6 × 10 ml"
+   }
+  },
+  {
+   "sku": "BB-1020",
+   "name": "Electric Toothbrush",
+   "brand": "Pebble",
+   "category": "bath-bedding",
+   "price": 78.99,
+   "stock": 23,
+   "description": "Sonic toothbrush with a pressure sensor and travel case.",
+   "attributes": {
+    "Battery": "3 weeks"
+   }
+  },
+  {
+   "sku": "BB-1021",
+   "name": "Water Flosser",
+   "brand": "Pebble",
+   "category": "bath-bedding",
+   "price": 58.99,
+   "stock": 24,
+   "description": "Cordless flosser for cleaner gums.",
+   "attributes": {
+    "Modes": "3"
+   }
+  },
+  {
+   "sku": "BB-1022",
+   "name": "Bamboo Bath Caddy",
+   "brand": "Oakline",
+   "category": "bath-bedding",
+   "price": 38.99,
+   "stock": 59,
+   "description": "Extendable tray across the tub for a book and a cup of tea.",
+   "attributes": {
+    "Length": "70–105 cm"
+   }
+  },
+  {
+   "sku": "BB-1023",
+   "name": "Towel Warmer, Freestanding",
+   "brand": "Tidewater",
+   "category": "bath-bedding",
+   "price": 128.99,
+   "stock": 56,
+   "description": "Heated rail that dries towels.",
+   "attributes": {
+    "Bars": "10"
+   }
+  },
+  {
+   "sku": "BB-1024",
+   "name": "Shower Curtain, Waffle",
+   "brand": "Tidewater",
+   "category": "bath-bedding",
+   "price": 28.99,
+   "stock": 55,
+   "description": "Water-repellent fabric curtain.",
+   "attributes": {
+    "Size": "180 × 200 cm"
+   }
+  },
+  {
+   "sku": "BB-1025",
+   "name": "Bathroom Scale, Smart",
+   "brand": "Pebble",
+   "category": "bath-bedding",
+   "price": 48.99,
+   "stock": 60,
+   "description": "Measures weight and body composition and syncs to an app.",
+   "attributes": {
+    "Capacity": "180 kg"
+   }
+  },
+  {
+   "sku": "BB-1026",
+   "name": "Hair Dryer, Ionic",
+   "brand": "Pebble",
+   "category": "bath-bedding",
+   "price": 88.99,
+   "stock": 25,
+   "description": "Fast, quiet dryer with a diffuser.",
+   "attributes": {
+    "Power": "2000 W"
+   }
+  },
+  {
+   "sku": "BB-1027",
+   "name": "Makeup Mirror, Lighted",
+   "brand": "Pebble",
+   "category": "bath-bedding",
+   "price": 44.99,
+   "stock": 22,
+   "description": "Magnifying mirror with dimmable LEDs.",
+   "attributes": {
+    "Magnification": "5×"
+   }
+  },
+  {
+   "sku": "BB-1028",
+   "name": "Laundry Hamper with Lid",
+   "brand": "Pebble",
+   "category": "bath-bedding",
+   "price": 34.99,
+   "stock": 1,
+   "description": "Bamboo hamper with a removable bag.",
+   "attributes": {
+    "Volume": "70 L"
+   }
+  },
+  {
+   "sku": "BB-1029",
+   "name": "Baby Bath Towel, Hooded",
+   "brand": "Tidewater",
+   "category": "bath-bedding",
+   "price": 18.95,
+   "stock": 0,
+   "description": "Soft hooded towel for little ones.",
+   "attributes": {
+    "Size": "75 × 75 cm"
+   }
+  },
+  {
+   "sku": "BB-1030",
+   "name": "Cot Bedding Set",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 44.99,
+   "stock": 59,
+   "description": "Duvet and pillow set for toddler beds.",
+   "attributes": {
+    "Size": "100 × 135 cm"
+   }
+  },
+  {
+   "sku": "BB-1031",
+   "name": "Pillow, Hypoallergenic (2)",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 38.99,
+   "stock": 42,
+   "description": "Microfibre pillows for allergy sufferers.",
+   "attributes": {
+    "Size": "50 × 70 cm"
+   }
+  },
+  {
+   "sku": "BB-1032",
+   "name": "Body Pillow, Pregnancy",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 68.99,
+   "stock": 21,
+   "description": "U-shaped pillow that supports back and bump.",
+   "attributes": {
+    "Length": "140 cm"
+   }
+  },
+  {
+   "sku": "BB-1033",
+   "name": "Lavender Pillow Spray",
+   "brand": "Tidewater",
+   "category": "bath-bedding",
+   "price": 13.95,
+   "stock": 1,
+   "description": "Calming mist for bedtime routines.",
+   "attributes": {
+    "Volume": "100 ml"
+   }
+  },
+  {
+   "sku": "BB-1034",
+   "name": "Ear Plugs, Foam (20 pairs)",
+   "brand": "Pebble",
+   "category": "bath-bedding",
+   "price": 8.95,
+   "stock": 60,
+   "description": "Soft plugs to shut out snoring partners.",
+   "attributes": {
+    "SNR": "37 dB"
+   }
+  },
+  {
+   "sku": "BB-1035",
+   "name": "Cooling Pillowcase",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 28.99,
+   "stock": 9,
+   "description": "Silky cooling fabric for hot sleepers.",
+   "attributes": {
+    "Material": "Lyocell"
+   }
+  },
+  {
+   "sku": "BB-1036",
+   "name": "Bedspread, Quilted",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 88.99,
+   "stock": 0,
+   "description": "Lightweight quilted throw for the end of the bed.",
+   "attributes": {
+    "Size": "220 × 250 cm"
+   }
+  },
+  {
+   "sku": "BB-1037",
+   "name": "Sauna Hat, Felt",
+   "brand": "Halden",
+   "category": "bath-bedding",
+   "price": 24.99,
+   "stock": 37,
+   "description": "Wool felt hat that keeps your head cool in the sauna.",
+   "attributes": {
+    "Material": "Wool felt"
+   }
+  },
+  {
+   "sku": "BB-1038",
+   "name": "Exfoliating Gloves",
+   "brand": "Tidewater",
+   "category": "bath-bedding",
+   "price": 7.95,
+   "stock": 44,
+   "description": "Textured gloves for smooth skin.",
+   "attributes": {
+    "Pieces": "2"
+   }
+  },
+  {
+   "sku": "BB-1039",
+   "name": "Natural Sea Sponge",
+   "brand": "Tidewater",
+   "category": "bath-bedding",
+   "price": 11.95,
+   "stock": 44,
+   "description": "Soft, sustainable sponge.",
+   "attributes": {
+    "Size": "Medium"
+   }
+  },
+  {
+   "sku": "BB-1040",
+   "name": "Toiletry Bag, Hanging",
+   "brand": "Tidewater",
+   "category": "bath-bedding",
+   "price": 28.99,
+   "stock": 20,
+   "description": "Travel wash bag with a hook and many pockets.",
+   "attributes": {
+    "Volume": "5 L"
+   }
+  },
+  {
+   "sku": "SF-1001",
+   "name": "Yoga Mat, Natural Rubber",
+   "brand": "Brisa",
+   "category": "sports-fitness",
+   "price": 68.99,
+   "stock": 60,
+   "description": "Grippy, cushioned mat that stays put in sweaty sessions.",
+   "attributes": {
+    "Thickness": "4 mm",
+    "Size": "183 × 66 cm"
+   }
+  },
+  {
+   "sku": "SF-1002",
+   "name": "Yoga Blocks, Cork (2)",
+   "brand": "Brisa",
+   "category": "sports-fitness",
+   "price": 24.99,
+   "stock": 0,
+   "description": "Firm cork blocks to support poses while you build flexibility.",
+   "attributes": {
+    "Size": "23 × 15 × 7.5 cm"
+   }
+  },
+  {
+   "sku": "SF-1003",
+   "name": "Yoga Strap",
+   "brand": "Brisa",
+   "category": "sports-fitness",
+   "price": 8.95,
+   "stock": 26,
+   "description": "Cotton strap with a D-ring buckle for stretches.",
+   "attributes": {
+    "Length": "2.4 m"
+   }
+  },
+  {
+   "sku": "SF-1004",
+   "name": "Beginner Yoga Starter Set",
+   "brand": "Brisa",
+   "category": "sports-fitness",
+   "price": 58.99,
+   "stock": 11,
+   "description": "Mat, two blocks, strap and a carry sling: everything for your first classes.",
+   "attributes": {
+    "Includes": "Mat, 2 blocks, strap, sling"
+   }
+  },
+  {
+   "sku": "SF-1005",
+   "name": "Meditation Cushion",
+   "brand": "Brisa",
+   "category": "sports-fitness",
+   "price": 44.99,
+   "stock": 58,
+   "description": "Buckwheat-filled zafu for comfortable sitting.",
+   "attributes": {
+    "Fill": "Buckwheat hulls"
+   }
+  },
+  {
+   "sku": "SF-1006",
+   "name": "Adjustable Dumbbells 2–24 kg",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 348.99,
+   "stock": 43,
+   "description": "Dial-select dumbbells that replace a whole rack.",
+   "attributes": {
+    "Range": "2–24 kg each"
+   }
+  },
+  {
+   "sku": "SF-1007",
+   "name": "Kettlebell 12 kg",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 44.99,
+   "stock": 39,
+   "description": "Cast iron kettlebell with a wide handle.",
+   "attributes": {
+    "Weight": "12 kg"
+   }
+  },
+  {
+   "sku": "SF-1008",
+   "name": "Resistance Bands Set",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 28.99,
+   "stock": 0,
+   "description": "Five loop bands from light to extra heavy, with door anchor.",
+   "attributes": {
+    "Bands": "5"
+   }
+  },
+  {
+   "sku": "SF-1009",
+   "name": "Pull-Up Bar, Doorway",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 34.99,
+   "stock": 35,
+   "description": "No-screw bar that fits most door frames.",
+   "attributes": {
+    "Width": "62–100 cm"
+   }
+  },
+  {
+   "sku": "SF-1010",
+   "name": "Weight Bench, Adjustable",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 178.99,
+   "stock": 47,
+   "description": "Flat, incline and decline positions.",
+   "attributes": {
+    "Load": "300 kg"
+   }
+  },
+  {
+   "sku": "SF-1011",
+   "name": "Foam Roller",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 28.99,
+   "stock": 0,
+   "description": "High-density roller for sore muscles.",
+   "attributes": {
+    "Length": "45 cm"
+   }
+  },
+  {
+   "sku": "SF-1012",
+   "name": "Massage Gun",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 128.99,
+   "stock": 22,
+   "description": "Percussion massager with five heads for recovery.",
+   "attributes": {
+    "Speeds": "5"
+   }
+  },
+  {
+   "sku": "SF-1013",
+   "name": "Jump Rope, Speed",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 14.95,
+   "stock": 0,
+   "description": "Ball-bearing rope for skipping workouts.",
+   "attributes": {
+    "Length": "Adjustable"
+   }
+  },
+  {
+   "sku": "SF-1014",
+   "name": "Exercise Bike, Folding",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 298.99,
+   "stock": 30,
+   "description": "Magnetic resistance bike that folds away.",
+   "attributes": {
+    "Levels": "8"
+   }
+  },
+  {
+   "sku": "SF-1015",
+   "name": "Rowing Machine",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 798.99,
+   "stock": 21,
+   "description": "Air rower with performance monitor.",
+   "attributes": {
+    "Monitor": "Pace, watts, calories"
+   }
+  },
+  {
+   "sku": "SF-1016",
+   "name": "Treadmill, Under-Desk",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 448.99,
+   "stock": 46,
+   "description": "Walking pad that slides under a standing desk.",
+   "attributes": {
+    "Speed": "1–6 km/h"
+   }
+  },
+  {
+   "sku": "SF-1017",
+   "name": "Running Belt",
+   "brand": "Kestrel",
+   "category": "sports-fitness",
+   "price": 18.95,
+   "stock": 53,
+   "description": "Bounce-free belt for phone and keys.",
+   "attributes": {
+    "Fits": "Phones up to 6.9\""
+   }
+  },
+  {
+   "sku": "SF-1018",
+   "name": "Hydration Vest 5 L",
+   "brand": "Kestrel",
+   "category": "sports-fitness",
+   "price": 98.99,
+   "stock": 51,
+   "description": "Trail-running vest with two soft flasks.",
+   "attributes": {
+    "Volume": "5 L"
+   }
+  },
+  {
+   "sku": "SF-1019",
+   "name": "Sports Water Bottle 750 ml",
+   "brand": "Arbor",
+   "category": "sports-fitness",
+   "price": 14.95,
+   "stock": 5,
+   "description": "Squeezable bottle with a leakproof valve.",
+   "attributes": {
+    "Volume": "750 ml"
+   }
+  },
+  {
+   "sku": "SF-1020",
+   "name": "Tennis Racket, Graphite",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 148.99,
+   "stock": 31,
+   "description": "Lightweight racket with a forgiving sweet spot.",
+   "attributes": {
+    "Weight": "280 g"
+   }
+  },
+  {
+   "sku": "SF-1021",
+   "name": "Padel Racket",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 128.99,
+   "stock": 20,
+   "description": "Carbon padel racket with a soft EVA core.",
+   "attributes": {
+    "Weight": "365 g"
+   }
+  },
+  {
+   "sku": "SF-1022",
+   "name": "Football, Size 5",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 28.99,
+   "stock": 17,
+   "description": "Machine-stitched match ball.",
+   "attributes": {
+    "Size": "5"
+   }
+  },
+  {
+   "sku": "SF-1023",
+   "name": "Basketball, Outdoor",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 28.99,
+   "stock": 34,
+   "description": "Durable rubber ball for street courts.",
+   "attributes": {
+    "Size": "7"
+   }
+  },
+  {
+   "sku": "SF-1024",
+   "name": "Badminton Set",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 38.99,
+   "stock": 35,
+   "description": "Four rackets, shuttlecocks and a net for the garden.",
+   "attributes": {
+    "Players": "4"
+   }
+  },
+  {
+   "sku": "SF-1025",
+   "name": "Table Tennis Bats (2)",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 28.99,
+   "stock": 4,
+   "description": "Bats with balls and a carry case.",
+   "attributes": {
+    "Pieces": "2 bats, 3 balls"
+   }
+  },
+  {
+   "sku": "SF-1026",
+   "name": "Cycling Helmet",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 78.99,
+   "stock": 47,
+   "description": "Ventilated helmet with MIPS for road and commuting.",
+   "attributes": {
+    "Weight": "290 g"
+   }
+  },
+  {
+   "sku": "SF-1027",
+   "name": "Bike Lights Set, USB",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 34.99,
+   "stock": 41,
+   "description": "Bright front and rear lights for dark evenings.",
+   "attributes": {
+    "Front": "400 lm"
+   }
+  },
+  {
+   "sku": "SF-1028",
+   "name": "Bike Lock, D-Lock",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 58.99,
+   "stock": 51,
+   "description": "Hardened steel lock with mount.",
+   "attributes": {
+    "Security": "Sold Secure Gold"
+   }
+  },
+  {
+   "sku": "SF-1029",
+   "name": "Bike Repair Kit",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 24.99,
+   "stock": 0,
+   "description": "Multitool, tyre levers and patches.",
+   "attributes": {
+    "Tools": "16"
+   }
+  },
+  {
+   "sku": "SF-1030",
+   "name": "Swimming Goggles",
+   "brand": "Tidewater",
+   "category": "sports-fitness",
+   "price": 18.95,
+   "stock": 44,
+   "description": "Anti-fog goggles with a wide view.",
+   "attributes": {
+    "Lens": "Anti-fog, UV"
+   }
+  },
+  {
+   "sku": "SF-1031",
+   "name": "Swim Cap, Silicone",
+   "brand": "Tidewater",
+   "category": "sports-fitness",
+   "price": 8.95,
+   "stock": 52,
+   "description": "Durable cap for lane swimming.",
+   "attributes": {
+    "Material": "Silicone"
+   }
+  },
+  {
+   "sku": "SF-1032",
+   "name": "Wetsuit, 3/2 mm",
+   "brand": "Tidewater",
+   "category": "sports-fitness",
+   "price": 198.99,
+   "stock": 30,
+   "description": "Full suit for open-water swimming and surfing.",
+   "attributes": {
+    "Thickness": "3/2 mm"
+   }
+  },
+  {
+   "sku": "SF-1033",
+   "name": "Stand-Up Paddle Board, Inflatable",
+   "brand": "Tidewater",
+   "category": "sports-fitness",
+   "price": 448.99,
+   "stock": 40,
+   "description": "Stable 10'6\" board with pump, paddle and bag.",
+   "attributes": {
+    "Length": "320 cm"
+   }
+  },
+  {
+   "sku": "SF-1034",
+   "name": "Climbing Shoes",
+   "brand": "Kestrel",
+   "category": "sports-fitness",
+   "price": 98.99,
+   "stock": 41,
+   "description": "Comfortable shoes for indoor bouldering beginners.",
+   "attributes": {
+    "Closure": "Velcro"
+   }
+  },
+  {
+   "sku": "SF-1035",
+   "name": "Chalk Bag with Belt",
+   "brand": "Kestrel",
+   "category": "sports-fitness",
+   "price": 18.95,
+   "stock": 46,
+   "description": "Bag and chalk for climbing grip.",
+   "attributes": {
+    "Includes": "Chalk 60 g"
+   }
+  },
+  {
+   "sku": "SF-1036",
+   "name": "Climbing Harness",
+   "brand": "Kestrel",
+   "category": "sports-fitness",
+   "price": 68.99,
+   "stock": 31,
+   "description": "Adjustable harness with four gear loops.",
+   "attributes": {
+    "Gear loops": "4"
+   }
+  },
+  {
+   "sku": "SF-1037",
+   "name": "Gym Bag, Duffel",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 48.99,
+   "stock": 35,
+   "description": "Water-resistant bag with a shoe compartment.",
+   "attributes": {
+    "Volume": "40 L"
+   }
+  },
+  {
+   "sku": "SF-1038",
+   "name": "Boxing Gloves 12 oz",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 48.99,
+   "stock": 23,
+   "description": "Padded gloves for bag work and sparring.",
+   "attributes": {
+    "Weight": "12 oz"
+   }
+  },
+  {
+   "sku": "SF-1039",
+   "name": "Ab Wheel",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 14.95,
+   "stock": 58,
+   "description": "Core trainer with knee pad.",
+   "attributes": {
+    "Wheel": "Dual"
+   }
+  },
+  {
+   "sku": "SF-1040",
+   "name": "Balance Board",
+   "brand": "Strand",
+   "category": "sports-fitness",
+   "price": 38.99,
+   "stock": 42,
+   "description": "Wooden wobble board for ankles and core.",
+   "attributes": {
+    "Diameter": "40 cm"
+   }
+  },
+  {
+   "sku": "GT-1001",
+   "name": "Balcony Herb Planter",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 48.99,
+   "stock": 42,
+   "description": "Self-watering railing box for basil, parsley and thyme on a small balcony.",
+   "attributes": {
+    "Length": "60 cm",
+    "Reservoir": "2 L"
+   }
+  },
+  {
+   "sku": "GT-1002",
+   "name": "Herb Seed Kit",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 18.95,
+   "stock": 50,
+   "description": "Organic seeds for six kitchen herbs with biodegradable pots and soil discs.",
+   "attributes": {
+    "Varieties": "6"
+   }
+  },
+  {
+   "sku": "GT-1003",
+   "name": "Raised Garden Bed",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 128.99,
+   "stock": 49,
+   "description": "Cedar bed for vegetables at a comfortable working height.",
+   "attributes": {
+    "Size": "120 × 60 × 30 cm"
+   }
+  },
+  {
+   "sku": "GT-1004",
+   "name": "Vertical Planter, Wall",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 58.99,
+   "stock": 13,
+   "description": "Felt pocket planter to grow greens on a fence or wall.",
+   "attributes": {
+    "Pockets": "18"
+   }
+  },
+  {
+   "sku": "GT-1005",
+   "name": "Indoor Grow Light",
+   "brand": "Lumen",
+   "category": "garden-tools",
+   "price": 68.99,
+   "stock": 10,
+   "description": "Full-spectrum LED bar that keeps houseplants and seedlings thriving through winter.",
+   "attributes": {
+    "Power": "40 W"
+   }
+  },
+  {
+   "sku": "GT-1006",
+   "name": "Smart Indoor Garden",
+   "brand": "Lumen",
+   "category": "garden-tools",
+   "price": 148.99,
+   "stock": 35,
+   "description": "Countertop hydroponic garden with automatic light timer.",
+   "attributes": {
+    "Pods": "9"
+   }
+  },
+  {
+   "sku": "GT-1007",
+   "name": "Pruning Saw, Folding",
+   "brand": "Arbor",
+   "category": "garden-tools",
+   "price": 34.99,
+   "stock": 51,
+   "description": "Razor-toothed folding saw that cuts branches up to 15 cm.",
+   "attributes": {
+    "Blade": "21 cm"
+   }
+  },
+  {
+   "sku": "GT-1008",
+   "name": "Bypass Secateurs",
+   "brand": "Arbor",
+   "category": "garden-tools",
+   "price": 28.99,
+   "stock": 43,
+   "description": "Sharp pruners for roses, shrubs and fruit trees.",
+   "attributes": {
+    "Cut": "Up to 22 mm"
+   }
+  },
+  {
+   "sku": "GT-1009",
+   "name": "Hedge Trimmer, Cordless",
+   "brand": "Arbor",
+   "category": "garden-tools",
+   "price": 148.99,
+   "stock": 43,
+   "description": "Battery trimmer for neat hedges.",
+   "attributes": {
+    "Blade": "50 cm",
+    "Battery": "18 V"
+   }
+  },
+  {
+   "sku": "GT-1010",
+   "name": "Loppers, Telescopic",
+   "brand": "Arbor",
+   "category": "garden-tools",
+   "price": 48.99,
+   "stock": 50,
+   "description": "Long-handled loppers for thick branches.",
+   "attributes": {
+    "Cut": "Up to 50 mm"
+   }
+  },
+  {
+   "sku": "GT-1011",
+   "name": "Hand Axe",
+   "brand": "Arbor",
+   "category": "garden-tools",
+   "price": 58.99,
+   "stock": 41,
+   "description": "Forged axe for splitting kindling and felling small trees.",
+   "attributes": {
+    "Head": "600 g",
+    "Handle": "Hickory"
+   }
+  },
+  {
+   "sku": "GT-1012",
+   "name": "Chainsaw, Cordless 30 cm",
+   "brand": "Arbor",
+   "category": "garden-tools",
+   "price": 248.99,
+   "stock": 57,
+   "description": "Battery chainsaw for firewood and storm clean-up.",
+   "attributes": {
+    "Bar": "30 cm",
+    "Battery": "36 V"
+   }
+  },
+  {
+   "sku": "GT-1013",
+   "name": "Lawn Mower, Cordless",
+   "brand": "Arbor",
+   "category": "garden-tools",
+   "price": 348.99,
+   "stock": 7,
+   "description": "Quiet battery mower for medium lawns.",
+   "attributes": {
+    "Cut width": "40 cm"
+   }
+  },
+  {
+   "sku": "GT-1014",
+   "name": "Robotic Lawn Mower",
+   "brand": "Arbor",
+   "category": "garden-tools",
+   "price": 798.99,
+   "stock": 56,
+   "description": "Mows automatically within a boundary wire.",
+   "attributes": {
+    "Area": "Up to 800 m²"
+   }
+  },
+  {
+   "sku": "GT-1015",
+   "name": "Garden Hose 25 m with Reel",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 68.99,
+   "stock": 0,
+   "description": "Kink-resistant hose on a wall-mounted reel.",
+   "attributes": {
+    "Length": "25 m"
+   }
+  },
+  {
+   "sku": "GT-1016",
+   "name": "Spray Nozzle, 8 Patterns",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 14.95,
+   "stock": 15,
+   "description": "Pistol sprayer from mist to jet.",
+   "attributes": {
+    "Patterns": "8"
+   }
+  },
+  {
+   "sku": "GT-1017",
+   "name": "Watering Can 10 L",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 24.99,
+   "stock": 35,
+   "description": "Galvanised can with a long spout.",
+   "attributes": {
+    "Volume": "10 L"
+   }
+  },
+  {
+   "sku": "GT-1018",
+   "name": "Drip Irrigation Kit",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 48.99,
+   "stock": 31,
+   "description": "Waters pots and beds automatically.",
+   "attributes": {
+    "Drippers": "30"
+   }
+  },
+  {
+   "sku": "GT-1019",
+   "name": "Rain Barrel 200 L",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 88.99,
+   "stock": 35,
+   "description": "Collects roof water for the garden.",
+   "attributes": {
+    "Volume": "200 L"
+   }
+  },
+  {
+   "sku": "GT-1020",
+   "name": "Compost Bin 300 L",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 68.99,
+   "stock": 11,
+   "description": "Turns kitchen scraps and leaves into rich compost.",
+   "attributes": {
+    "Volume": "300 L"
+   }
+  },
+  {
+   "sku": "GT-1021",
+   "name": "Garden Gloves, Leather",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 18.95,
+   "stock": 38,
+   "description": "Thorn-resistant gloves.",
+   "attributes": {
+    "Material": "Goatskin"
+   }
+  },
+  {
+   "sku": "GT-1022",
+   "name": "Kneeling Pad and Seat",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 34.99,
+   "stock": 12,
+   "description": "Flips between a kneeler and a stool.",
+   "attributes": {
+    "Load": "150 kg"
+   }
+  },
+  {
+   "sku": "GT-1023",
+   "name": "Hand Trowel and Fork Set",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 21.99,
+   "stock": 0,
+   "description": "Stainless tools with ash handles.",
+   "attributes": {
+    "Pieces": "2"
+   }
+  },
+  {
+   "sku": "GT-1024",
+   "name": "Spade, Stainless",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 48.99,
+   "stock": 48,
+   "description": "Border spade for digging and edging.",
+   "attributes": {
+    "Length": "100 cm"
+   }
+  },
+  {
+   "sku": "GT-1025",
+   "name": "Leaf Rake",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 24.99,
+   "stock": 56,
+   "description": "Wide fan rake for autumn.",
+   "attributes": {
+    "Width": "60 cm"
+   }
+  },
+  {
+   "sku": "GT-1026",
+   "name": "Wheelbarrow",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 98.99,
+   "stock": 58,
+   "description": "Steel barrow with a puncture-proof tyre.",
+   "attributes": {
+    "Volume": "85 L"
+   }
+  },
+  {
+   "sku": "GT-1027",
+   "name": "Bird Feeder, Squirrel-Proof",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 38.99,
+   "stock": 51,
+   "description": "Weight-activated feeder that closes when squirrels climb on.",
+   "attributes": {
+    "Capacity": "1.5 kg"
+   }
+  },
+  {
+   "sku": "GT-1028",
+   "name": "Insect Hotel",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 28.99,
+   "stock": 36,
+   "description": "Nesting spots for solitary bees and ladybirds.",
+   "attributes": {
+    "Height": "35 cm"
+   }
+  },
+  {
+   "sku": "GT-1029",
+   "name": "Wildflower Seed Mix",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 8.95,
+   "stock": 58,
+   "description": "Native flowers that feed pollinators.",
+   "attributes": {
+    "Covers": "10 m²"
+   }
+  },
+  {
+   "sku": "GT-1030",
+   "name": "Tomato Grow Bags (3)",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 24.99,
+   "stock": 51,
+   "description": "Fabric bags for patio tomatoes and potatoes.",
+   "attributes": {
+    "Volume": "40 L"
+   }
+  },
+  {
+   "sku": "GT-1031",
+   "name": "Greenhouse, Mini",
+   "brand": "Mosgaard",
+   "category": "garden-tools",
+   "price": 78.99,
+   "stock": 39,
+   "description": "Four-tier plastic greenhouse for seedlings.",
+   "attributes": {
+    "Tiers": "4"
+   }
+  },
+  {
+   "sku": "GT-1032",
+   "name": "Solar Garden Lights (8)",
+   "brand": "Lumen",
+   "category": "garden-tools",
+   "price": 38.99,
+   "stock": 46,
+   "description": "Stake lights that glow along paths at night.",
+   "attributes": {
+    "Runtime": "8 h"
+   }
+  },
+  {
+   "sku": "GT-1033",
+   "name": "Fire Pit, Steel",
+   "brand": "Arbor",
+   "category": "garden-tools",
+   "price": 148.99,
+   "stock": 50,
+   "description": "Bowl fire pit with spark guard for cosy evenings outdoors.",
+   "attributes": {
+    "Diameter": "60 cm"
+   }
+  },
+  {
+   "sku": "GT-1034",
+   "name": "Charcoal Kettle Grill",
+   "brand": "Copperleaf",
+   "category": "garden-tools",
+   "price": 198.99,
+   "stock": 11,
+   "description": "Classic round barbecue with lid and thermometer.",
+   "attributes": {
+    "Grill": "57 cm"
+   }
+  },
+  {
+   "sku": "GT-1035",
+   "name": "Garden Bench, Teak",
+   "brand": "Oakline",
+   "category": "garden-tools",
+   "price": 348.99,
+   "stock": 0,
+   "description": "Weather-resistant teak bench for two.",
+   "attributes": {
+    "Width": "120 cm"
+   }
+  },
+  {
+   "sku": "GT-1036",
+   "name": "Outdoor Cushions (2)",
+   "brand": "Pebble",
+   "category": "garden-tools",
+   "price": 48.99,
+   "stock": 60,
+   "description": "Water-repellent seat pads.",
+   "attributes": {
+    "Size": "45 × 45 cm"
+   }
+  },
+  {
+   "sku": "GT-1037",
+   "name": "Parasol 3 m",
+   "brand": "Pebble",
+   "category": "garden-tools",
+   "price": 118.99,
+   "stock": 2,
+   "description": "Tilting sun umbrella with crank.",
+   "attributes": {
+    "Diameter": "3 m"
+   }
+  },
+  {
+   "sku": "GT-1038",
+   "name": "Pressure Washer",
+   "brand": "Arbor",
+   "category": "garden-tools",
+   "price": 178.99,
+   "stock": 57,
+   "description": "Cleans patios, cars and bikes.",
+   "attributes": {
+    "Pressure": "130 bar"
+   }
+  },
+  {
+   "sku": "GT-1039",
+   "name": "Tool Set, 108 pieces",
+   "brand": "Ridgeway",
+   "category": "garden-tools",
+   "price": 88.99,
+   "stock": 8,
+   "description": "Sockets, screwdrivers and pliers in a case for home repairs.",
+   "attributes": {
+    "Pieces": "108"
+   }
+  },
+  {
+   "sku": "GT-1040",
+   "name": "Cordless Drill Driver",
+   "brand": "Ridgeway",
+   "category": "garden-tools",
+   "price": 128.99,
+   "stock": 4,
+   "description": "18 V drill with two batteries and a bit set.",
+   "attributes": {
+    "Voltage": "18 V",
+    "Torque": "50 Nm"
+   }
+  },
+  {
+   "sku": "OF-1001",
+   "name": "Ergonomic Office Chair",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 398.99,
+   "stock": 28,
+   "description": "Adjustable lumbar support, seat depth and 4D armrests that keep your spine supported through long workdays.",
+   "attributes": {
+    "Lumbar": "Adjustable",
+    "Armrests": "4D",
+    "Load": "130 kg"
+   }
+  },
+  {
+   "sku": "OF-1002",
+   "name": "Electric Standing Desk",
+   "brand": "Oakline",
+   "category": "office",
+   "price": 548.99,
+   "stock": 4,
+   "description": "Dual-motor sit-stand desk with memory presets, so you can change position through the day.",
+   "attributes": {
+    "Height": "62–127 cm",
+    "Top": "160 × 80 cm"
+   }
+  },
+  {
+   "sku": "OF-1003",
+   "name": "Lumbar Support Cushion",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 38.99,
+   "stock": 59,
+   "description": "Memory-foam back cushion that straps to any chair to ease lower-back ache.",
+   "attributes": {
+    "Material": "Memory foam"
+   }
+  },
+  {
+   "sku": "OF-1004",
+   "name": "Footrest, Adjustable",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 34.99,
+   "stock": 9,
+   "description": "Tilting footrest that improves posture under the desk.",
+   "attributes": {
+    "Angles": "3"
+   }
+  },
+  {
+   "sku": "OF-1005",
+   "name": "Monitor Arm, Gas Spring",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 88.99,
+   "stock": 36,
+   "description": "Frees desk space and puts the screen at eye level.",
+   "attributes": {
+    "Screens": "Up to 32\""
+   }
+  },
+  {
+   "sku": "OF-1006",
+   "name": "Laptop Stand, Aluminium",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 44.99,
+   "stock": 33,
+   "description": "Raises the laptop screen to reduce neck strain.",
+   "attributes": {
+    "Height": "Adjustable"
+   }
+  },
+  {
+   "sku": "OF-1007",
+   "name": "Anti-Fatigue Mat",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 58.99,
+   "stock": 17,
+   "description": "Cushioned mat for standing desks.",
+   "attributes": {
+    "Size": "50 × 80 cm"
+   }
+  },
+  {
+   "sku": "OF-1008",
+   "name": "Desk Lamp, LED",
+   "brand": "Lumen",
+   "category": "office",
+   "price": 58.99,
+   "stock": 28,
+   "description": "Dimmable lamp with colour temperature control and USB charging.",
+   "attributes": {
+    "Output": "600 lm"
+   }
+  },
+  {
+   "sku": "OF-1009",
+   "name": "Monitor Light Bar",
+   "brand": "Lumen",
+   "category": "office",
+   "price": 48.99,
+   "stock": 58,
+   "description": "Lights the desk without screen glare.",
+   "attributes": {
+    "Power": "USB-C"
+   }
+  },
+  {
+   "sku": "OF-1010",
+   "name": "Desk Organiser, Wood",
+   "brand": "Oakline",
+   "category": "office",
+   "price": 28.99,
+   "stock": 4,
+   "description": "Trays for pens, phones and notes.",
+   "attributes": {
+    "Material": "Walnut"
+   }
+  },
+  {
+   "sku": "OF-1011",
+   "name": "Cable Management Tray",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 28.99,
+   "stock": 52,
+   "description": "Under-desk tray that hides power strips and cables.",
+   "attributes": {
+    "Length": "60 cm"
+   }
+  },
+  {
+   "sku": "OF-1012",
+   "name": "Notebook, Dotted A5",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 14.95,
+   "stock": 8,
+   "description": "Lay-flat notebook with 160 numbered pages.",
+   "attributes": {
+    "Pages": "160"
+   }
+  },
+  {
+   "sku": "OF-1013",
+   "name": "Fountain Pen",
+   "brand": "Copperleaf",
+   "category": "office",
+   "price": 48.99,
+   "stock": 51,
+   "description": "Steel-nib pen with a converter.",
+   "attributes": {
+    "Nib": "Medium"
+   }
+  },
+  {
+   "sku": "OF-1014",
+   "name": "Gel Pens (10)",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 11.95,
+   "stock": 11,
+   "description": "Smooth 0.5 mm pens in assorted colours.",
+   "attributes": {
+    "Tip": "0.5 mm"
+   }
+  },
+  {
+   "sku": "OF-1015",
+   "name": "Whiteboard, Magnetic",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 68.99,
+   "stock": 20,
+   "description": "Wall board for planning.",
+   "attributes": {
+    "Size": "90 × 60 cm"
+   }
+  },
+  {
+   "sku": "OF-1016",
+   "name": "Paper Shredder",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 78.99,
+   "stock": 27,
+   "description": "Cross-cut shredder for confidential documents.",
+   "attributes": {
+    "Sheets": "8"
+   }
+  },
+  {
+   "sku": "OF-1017",
+   "name": "Filing Cabinet, 3 Drawers",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 178.99,
+   "stock": 17,
+   "description": "Lockable steel cabinet on castors.",
+   "attributes": {
+    "Drawers": "3"
+   }
+  },
+  {
+   "sku": "OF-1018",
+   "name": "Office Printer, Laser",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 198.99,
+   "stock": 43,
+   "description": "Wireless mono laser printer with duplex.",
+   "attributes": {
+    "Speed": "30 ppm"
+   }
+  },
+  {
+   "sku": "OF-1019",
+   "name": "Document Scanner",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 248.99,
+   "stock": 44,
+   "description": "Duplex scanner that digitises receipts and contracts.",
+   "attributes": {
+    "Speed": "25 ppm"
+   }
+  },
+  {
+   "sku": "OF-1020",
+   "name": "Headset with Boom Mic",
+   "brand": "Nimbus",
+   "category": "office",
+   "price": 88.99,
+   "stock": 18,
+   "description": "Comfortable headset with noise-reducing mic for calls.",
+   "attributes": {
+    "Connection": "USB-C, Bluetooth"
+   }
+  },
+  {
+   "sku": "OF-1021",
+   "name": "Conference Speakerphone",
+   "brand": "Nimbus",
+   "category": "office",
+   "price": 128.99,
+   "stock": 19,
+   "description": "360° microphone for meeting rooms.",
+   "attributes": {
+    "Range": "4 m"
+   }
+  },
+  {
+   "sku": "OF-1022",
+   "name": "Ergonomic Keyboard, Split",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 98.99,
+   "stock": 7,
+   "description": "Split layout with a cushioned palm rest to reduce wrist strain.",
+   "attributes": {
+    "Layout": "Split"
+   }
+  },
+  {
+   "sku": "OF-1023",
+   "name": "Mouse Pad, XL",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 18.95,
+   "stock": 49,
+   "description": "Desk-sized pad.",
+   "attributes": {
+    "Size": "90 × 40 cm"
+   }
+  },
+  {
+   "sku": "OF-1024",
+   "name": "Wrist Rest, Gel",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 14.95,
+   "stock": 22,
+   "description": "Soft support for keyboard and mouse.",
+   "attributes": {
+    "Material": "Gel"
+   }
+  },
+  {
+   "sku": "OF-1025",
+   "name": "Desk Plant, Snake Plant",
+   "brand": "Mosgaard",
+   "category": "office",
+   "price": 24.99,
+   "stock": 48,
+   "description": "Hardy plant that thrives on neglect.",
+   "attributes": {
+    "Pot": "12 cm"
+   }
+  },
+  {
+   "sku": "OF-1026",
+   "name": "Air Purifier, Desktop",
+   "brand": "Nimbus",
+   "category": "office",
+   "price": 88.99,
+   "stock": 34,
+   "description": "HEPA filter for a fresher home office.",
+   "attributes": {
+    "Room": "20 m²"
+   }
+  },
+  {
+   "sku": "OF-1027",
+   "name": "Desk Fan, Quiet",
+   "brand": "Nimbus",
+   "category": "office",
+   "price": 38.99,
+   "stock": 11,
+   "description": "USB fan with three speeds.",
+   "attributes": {
+    "Diameter": "15 cm"
+   }
+  },
+  {
+   "sku": "OF-1028",
+   "name": "Space Heater, Ceramic",
+   "brand": "Nimbus",
+   "category": "office",
+   "price": 58.99,
+   "stock": 0,
+   "description": "Compact heater for chilly home offices.",
+   "attributes": {
+    "Power": "1500 W"
+   }
+  },
+  {
+   "sku": "OF-1029",
+   "name": "Backpack, Laptop 16\"",
+   "brand": "Strand",
+   "category": "office",
+   "price": 88.99,
+   "stock": 35,
+   "description": "Water-resistant commuter backpack with a padded laptop sleeve.",
+   "attributes": {
+    "Volume": "22 L"
+   }
+  },
+  {
+   "sku": "OF-1030",
+   "name": "Messenger Bag, Canvas",
+   "brand": "Strand",
+   "category": "office",
+   "price": 68.99,
+   "stock": 53,
+   "description": "Waxed canvas bag for a 13\" laptop.",
+   "attributes": {
+    "Material": "Waxed canvas"
+   }
+  },
+  {
+   "sku": "OF-1031",
+   "name": "Planner, Weekly 2027",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 18.95,
+   "stock": 35,
+   "description": "Hardcover diary with a week on two pages.",
+   "attributes": {
+    "Size": "A5"
+   }
+  },
+  {
+   "sku": "OF-1032",
+   "name": "Sticky Notes Set",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 8.95,
+   "stock": 41,
+   "description": "Twelve pads in pastel colours.",
+   "attributes": {
+    "Pads": "12"
+   }
+  },
+  {
+   "sku": "OF-1033",
+   "name": "Label Maker Tape",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 11.95,
+   "stock": 19,
+   "description": "Refill tape for the label printer.",
+   "attributes": {
+    "Width": "12 mm"
+   }
+  },
+  {
+   "sku": "OF-1034",
+   "name": "Document Wallet Set",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 13.95,
+   "stock": 1,
+   "description": "Five recycled card wallets.",
+   "attributes": {
+    "Pieces": "5"
+   }
+  },
+  {
+   "sku": "OF-1035",
+   "name": "Pen Pot, Ceramic",
+   "brand": "Copperleaf",
+   "category": "office",
+   "price": 14.95,
+   "stock": 19,
+   "description": "Speckled glaze pen holder.",
+   "attributes": {
+    "Height": "10 cm"
+   }
+  },
+  {
+   "sku": "OF-1036",
+   "name": "Bookends, Brass",
+   "brand": "Copperleaf",
+   "category": "office",
+   "price": 34.99,
+   "stock": 22,
+   "description": "Heavy bookends for a desk shelf.",
+   "attributes": {
+    "Pieces": "2"
+   }
+  },
+  {
+   "sku": "OF-1037",
+   "name": "Kneeling Chair",
+   "brand": "Oakline",
+   "category": "office",
+   "price": 148.99,
+   "stock": 8,
+   "description": "Opens the hip angle for an upright posture.",
+   "attributes": {
+    "Material": "Beech, fabric"
+   }
+  },
+  {
+   "sku": "OF-1038",
+   "name": "Balance Ball Chair",
+   "brand": "Strand",
+   "category": "office",
+   "price": 78.99,
+   "stock": 32,
+   "description": "Stability ball in a frame for active sitting.",
+   "attributes": {
+    "Ball": "52 cm"
+   }
+  },
+  {
+   "sku": "OF-1039",
+   "name": "Privacy Screen Filter 14\"",
+   "brand": "Pebble",
+   "category": "office",
+   "price": 38.99,
+   "stock": 2,
+   "description": "Stops people beside you from reading your laptop.",
+   "attributes": {
+    "Size": "14\""
+   }
+  },
+  {
+   "sku": "OF-1040",
+   "name": "Desk Calendar, Wooden",
+   "brand": "Oakline",
+   "category": "office",
+   "price": 24.99,
+   "stock": 22,
+   "description": "Perpetual block calendar.",
+   "attributes": {
+    "Material": "Oak"
+   }
+  }
+ ]
+}
