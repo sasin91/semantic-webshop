@@ -170,6 +170,10 @@ backend), and Docker for the embeddings server.
    - Trongate `ENV`: `prod`, so visitors never see PHP error details.
 4. **Deploy**, then open `https://{your-app}/admin`, press **Install and seed**, then
    **Embed missing and outdated**. Both are safe to run again.
+   To load the database from a SQL console instead, run `db/schema.sql`, then
+   `db/vectors_native.sql` (MariaDB 11.7+) or `db/vectors_blob.sql`, then `db/seed/products.sql`
+   (regenerate it with `php bin/seed-sql.php` after changing `products.json`). The products
+   still need embedding from the admin.
 
 ### Cold starts
 
